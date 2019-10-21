@@ -14,7 +14,10 @@ namespace factorio
                 var parser = new ParseWiki();
                 await parser.ParseRoot("https://wiki.factorio.com/Category:Intermediate_products");
 
-                File.WriteAllText("products.json", JsonConvert.SerializeObject(parser.Products, Formatting.Indented));
+                File.WriteAllText("products.json", JsonConvert.SerializeObject(new {
+                    products = parser.Products.Values,
+                    recipes = parser.Recipes
+                }, Formatting.Indented));
 
             }
             catch (Exception ex)

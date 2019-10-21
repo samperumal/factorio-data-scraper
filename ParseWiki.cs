@@ -18,9 +18,14 @@ namespace factorio
         {
             selectorList = new List<KeyValuePair<string, Func<IElement, Uri, Task>>>();
 
-            selectorList.Add(new KeyValuePair<string, Func<IElement, Uri, Task>>("div.infobox div.tabbertab table>tbody", null));
+            selectorList.Add(new KeyValuePair<string, Func<IElement, Uri, Task>>("div.infobox div.tabbertab table>tbody", ParseIntermediateResource));
             selectorList.Add(new KeyValuePair<string, Func<IElement, Uri, Task>>("table.wikitable", null));
             selectorList.Add(new KeyValuePair<string, Func<IElement, Uri, Task>>("div.infobox table>tbody", ParseGenericResource));
+        }
+
+        async Task T(IElement element, Uri uri)
+        {
+            Console.WriteLine(uri);
         }
 
         async Task<IDocument> LoadFromCache(string url)
@@ -101,41 +106,89 @@ namespace factorio
                     {
                         await selector.Value(tbody, uri);
                     }
-                    //Console.WriteLine("{0} : {1}", selector.Key, url);
                     break;
                 }
             }
 
-            if (tbody != null)
-            {
-                //Console.WriteLine(tbody.InnerHtml);                
-            }
-            else Console.WriteLine(url);
+            if (tbody == null) Console.WriteLine(url);
         }
 
-        public async Task ParseGenericResource(IElement element, Uri uri)
+        async Task ParseGenericResource(IElement element, Uri uri)
         {
-            var a = element.QuerySelector("tr td div.factorio-icon a");
+            var td = element.QuerySelector("tr td");
 
+            var resource = await ParseFactorioIcon(td, uri);
+            
+            AddProduct(resource);
+        }
+
+        async Task ParseIntermediateResource(IElement element, Uri uri)
+        {
+            var recipeText = element.QuerySelector("tr.border-top td p")?.TextContent?.Trim();
+            
+            bool recipeCheck = String.Equals(recipeText, "recipe", StringComparison.InvariantCultureIgnoreCase);
+            if (!recipeCheck) throw new InvalidDataException("No Recipe Found!");
+
+            var recipeElements = element.QuerySelector("tr + tr > td.infobox-vrow-value")?.QuerySelectorAll("div.factorio-icon");
+
+            var list = new List<dynamic>();
+
+            foreach (var div in recipeElements) {
+                var resource = await ParseFactorioIcon(div, uri);
+                list.Add(resource);
+                AddProduct(resource);
+            }
+
+            var output = list.Last();
+            dynamic time = null;
+
+            for (int i = 0; i + 1 < list.Count; i++) {
+                var input = list[i];
+                if (input.id == "/Time") {
+                    time = input;
+                    continue;
+                }
+            }
+
+            var recipe = new {
+                inputs = list.Where(e => e != output && e != time),
+                output,
+                time
+            };
+
+            Recipes.Add(recipe);
+            
+            Console.WriteLine(uri);
+        }
+
+        void AddProduct(dynamic resource) {
+            if (resource != null && !Products.ContainsKey(resource.id))
+                Products.Add(resource.id, resource);
+        }
+
+        async Task<dynamic> ParseFactorioIcon(IElement element, Uri uri) {
+            var a = element.QuerySelector("a");
             if (a != null)
             {
                 var id = a.GetAttribute("href");
                 var title = a.GetAttribute("title");
                 var imgRelativeUrl = a.QuerySelector("img")?.GetAttribute("src");
                 var imgUrl = imgRelativeUrl != null ? new Uri(uri, imgRelativeUrl) : null;
+                var text = element.QuerySelector("div.factorio-icon-text")?.TextContent;
 
                 if (imgUrl != null)
                     await CacheDownload(imgUrl, imgRelativeUrl);
 
-                Products.Add(new
+                return new
                 {
                     id,
                     title,
                     imgRelativeUrl,
-                    imgUrl
-                });
+                    imgUrl,
+                    text
+                };
             }
-            Console.WriteLine(uri);
+            else return null;
         }
 
         private async Task CacheDownload(Uri imgUrl, string localPath)
@@ -146,25 +199,29 @@ namespace factorio
 
             Directory.CreateDirectory(dir);
 
-            using (var client = new HttpClient())
+            if (!File.Exists(path))
             {
-                using (var response = await client.GetAsync(imgUrl))
+                using (var client = new HttpClient())
                 {
-                    using (var source = await response.Content.ReadAsStreamAsync())
+                    using (var response = await client.GetAsync(imgUrl))
                     {
-                        using (var target = File.OpenWrite(path))
+                        using (var source = await response.Content.ReadAsStreamAsync())
                         {
-                            await source.CopyToAsync(target);
+                            using (var target = File.OpenWrite(path))
+                            {
+                                await source.CopyToAsync(target);
+                            }
                         }
                     }
                 }
             }
-
         }
 
         readonly List<KeyValuePair<string, Func<IElement, Uri, Task>>> selectorList;
         private IEnumerable<string> productExclusions;
 
-        public List<dynamic> Products {get; protected set;} = new List<dynamic>();
+        public Dictionary<string, dynamic> Products { get; protected set; } = new Dictionary<string, dynamic>();
+
+        public List<dynamic> Recipes { get; protected set; } = new List<dynamic>();
     }
 }
