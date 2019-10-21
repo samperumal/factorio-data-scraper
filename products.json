@@ -1,0 +1,56 @@
+[
+  {
+    "id": "/Coal",
+    "title": "Coal",
+    "imgRelativeUrl": "/images/thumb/Coal.png/32px-Coal.png",
+    "imgUrl": "https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png"
+  },
+  {
+    "id": "/Copper_ore",
+    "title": "Copper ore",
+    "imgRelativeUrl": "/images/thumb/Copper_ore.png/32px-Copper_ore.png",
+    "imgUrl": "https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png"
+  },
+  {
+    "id": "/Crude_oil",
+    "title": "Crude oil",
+    "imgRelativeUrl": "/images/Crude_oil.png",
+    "imgUrl": "https://wiki.factorio.com/images/Crude_oil.png"
+  },
+  {
+    "id": "/Iron_ore",
+    "title": "Iron ore",
+    "imgRelativeUrl": "/images/thumb/Iron_ore.png/32px-Iron_ore.png",
+    "imgUrl": "https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png"
+  },
+  {
+    "id": "/Raw_fish",
+    "title": "Raw fish",
+    "imgRelativeUrl": "/images/Raw_fish.png",
+    "imgUrl": "https://wiki.factorio.com/images/Raw_fish.png"
+  },
+  {
+    "id": "/Stone",
+    "title": "Stone",
+    "imgRelativeUrl": "/images/thumb/Stone.png/32px-Stone.png",
+    "imgUrl": "https://wiki.factorio.com/images/thumb/Stone.png/32px-Stone.png"
+  },
+  {
+    "id": "/Uranium_ore",
+    "title": "Uranium ore",
+    "imgRelativeUrl": "/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
+    "imgUrl": "https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png"
+  },
+  {
+    "id": "/Water",
+    "title": "Water",
+    "imgRelativeUrl": "/images/Water.png",
+    "imgUrl": "https://wiki.factorio.com/images/Water.png"
+  },
+  {
+    "id": "/Wood",
+    "title": "Wood",
+    "imgRelativeUrl": "/images/Wood.png",
+    "imgUrl": "https://wiki.factorio.com/images/Wood.png"
+  }
+]

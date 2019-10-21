@@ -1,12 +1,28 @@
 ﻿using System;
+using System.IO;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace factorio
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                var parser = new ParseWiki();
+                await parser.ParseRoot("https://wiki.factorio.com/Category:Intermediate_products");
+
+                File.WriteAllText("products.json", JsonConvert.SerializeObject(parser.Products, Formatting.Indented));
+
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine(ex);
+            }
+
+            Console.WriteLine("Done!");
         }
     }
 }
