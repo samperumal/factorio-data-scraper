@@ -150,14 +150,12 @@ namespace factorio
 
             var recipe = new
             {
-                inputs = list.Where(e => e != output && e != time).Select(e => e.id),
-                outputs = new [] { output.id },
+                inputs = list.Where(e => e != output && e != time).Select(RecipePart),
+                outputs = new [] { RecipePart(output) },
                 time = time?.image?.text
             };
 
             Recipes.Add(recipe);
-
-            //Console.WriteLine(uri);
         }
 
         async Task ParseTableResource(IElement element, Uri uri)
@@ -220,8 +218,8 @@ namespace factorio
 
                 var recipe = new
                 {
-                    inputs = inputs.Skip(1).Select(e => e.id),
-                    outputs = outputs.Select(output => output.id),
+                    inputs = inputs.Skip(1).Select(RecipePart),
+                    outputs = outputs.Select(RecipePart),
                     time = inputs.First()?.image?.text,
                     process = new {
                         process.imgRelativeUrl,
@@ -234,6 +232,10 @@ namespace factorio
 
                 Recipes.Add(recipe);
             }
+        }
+
+        dynamic RecipePart(dynamic e) {
+            return new { e.id, time = e?.image?.text };
         }
 
         internal void AddProduct(dynamic resource)

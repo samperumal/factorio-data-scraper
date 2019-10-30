@@ -6,52 +6,142 @@
       "image": {
         "imgRelativeUrl": "/images/Time_icon.png",
         "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "5"
+        "text": "6"
       }
     },
     {
-      "id": "/Crude_oil",
-      "title": "Crude oil",
+      "id": "/Copper_cable",
+      "title": "Copper cable",
       "image": {
-        "imgRelativeUrl": "/images/Crude_oil.png",
-        "imgUrl": "https://wiki.factorio.com/images/Crude_oil.png",
-        "text": "100"
+        "imgRelativeUrl": "/images/Copper_cable.png",
+        "imgUrl": "https://wiki.factorio.com/images/Copper_cable.png",
+        "text": "4"
       }
     },
     {
-      "id": "/Petroleum_gas",
-      "title": "Petroleum gas",
+      "id": "/Electronic_circuit",
+      "title": "Electronic circuit",
       "image": {
-        "imgRelativeUrl": "/images/Petroleum_gas.png",
-        "imgUrl": "https://wiki.factorio.com/images/Petroleum_gas.png",
-        "text": "45"
+        "imgRelativeUrl": "/images/Electronic_circuit.png",
+        "imgUrl": "https://wiki.factorio.com/images/Electronic_circuit.png",
+        "text": "2"
       }
     },
     {
-      "id": "/Water",
-      "title": "Water",
+      "id": "/Plastic_bar",
+      "title": "Plastic bar",
       "image": {
-        "imgRelativeUrl": "/images/Water.png",
-        "imgUrl": "https://wiki.factorio.com/images/Water.png",
-        "text": "50"
+        "imgRelativeUrl": "/images/Plastic_bar.png",
+        "imgUrl": "https://wiki.factorio.com/images/Plastic_bar.png",
+        "text": "2"
       }
     },
     {
-      "id": "/Heavy_oil",
-      "title": "Heavy oil",
+      "id": "/Advanced_circuit",
+      "title": "Advanced circuit",
       "image": {
-        "imgRelativeUrl": "/images/Heavy_oil.png",
-        "imgUrl": "https://wiki.factorio.com/images/Heavy_oil.png",
-        "text": "25"
+        "imgRelativeUrl": "/images/Advanced_circuit.png",
+        "imgUrl": "https://wiki.factorio.com/images/Advanced_circuit.png",
+        "text": "1 "
       }
     },
     {
-      "id": "/Light_oil",
-      "title": "Light oil",
+      "id": "/Alien_artifact",
+      "title": "Alien artifact",
       "image": {
-        "imgRelativeUrl": "/images/Light_oil.png",
-        "imgUrl": "https://wiki.factorio.com/images/Light_oil.png",
-        "text": "45"
+        "imgRelativeUrl": "/images/Alien_artifact.png",
+        "imgUrl": "https://wiki.factorio.com/images/Alien_artifact.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Alien_science_pack",
+      "title": "Alien science pack",
+      "image": {
+        "imgRelativeUrl": "/images/Alien_science_pack.png",
+        "imgUrl": "https://wiki.factorio.com/images/Alien_science_pack.png",
+        "text": "10"
+      }
+    },
+    {
+      "id": "/Copper_plate",
+      "title": "Copper plate",
+      "image": {
+        "imgRelativeUrl": "/images/Copper_plate.png",
+        "imgUrl": "https://wiki.factorio.com/images/Copper_plate.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Iron_gear_wheel",
+      "title": "Iron gear wheel",
+      "image": {
+        "imgRelativeUrl": "/images/Iron_gear_wheel.png",
+        "imgUrl": "https://wiki.factorio.com/images/Iron_gear_wheel.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Automation_science_pack",
+      "title": "Automation science pack",
+      "image": {
+        "imgRelativeUrl": "/images/Automation_science_pack.png",
+        "imgUrl": "https://wiki.factorio.com/images/Automation_science_pack.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Iron_plate",
+      "title": "Iron plate",
+      "image": {
+        "imgRelativeUrl": "/images/Iron_plate.png",
+        "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Sulfuric_acid",
+      "title": "Sulfuric acid",
+      "image": {
+        "imgRelativeUrl": "/images/Sulfuric_acid.png",
+        "imgUrl": "https://wiki.factorio.com/images/Sulfuric_acid.png",
+        "text": "20"
+      }
+    },
+    {
+      "id": "/Battery",
+      "title": "Battery",
+      "image": {
+        "imgRelativeUrl": "/images/Battery.png",
+        "imgUrl": "https://wiki.factorio.com/images/Battery.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Engine_unit",
+      "title": "Engine unit",
+      "image": {
+        "imgRelativeUrl": "/images/Engine_unit.png",
+        "imgUrl": "https://wiki.factorio.com/images/Engine_unit.png",
+        "text": "2"
+      }
+    },
+    {
+      "id": "/Sulfur",
+      "title": "Sulfur",
+      "image": {
+        "imgRelativeUrl": "/images/Sulfur.png",
+        "imgUrl": "https://wiki.factorio.com/images/Sulfur.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Chemical_science_pack",
+      "title": "Chemical science pack",
+      "image": {
+        "imgRelativeUrl": "/images/Chemical_science_pack.png",
+        "imgUrl": "https://wiki.factorio.com/images/Chemical_science_pack.png",
+        "text": "2"
       }
     },
     {
@@ -60,7 +150,421 @@
       "image": {
         "imgRelativeUrl": "/images/thumb/Coal.png/32px-Coal.png",
         "imgUrl": "https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png",
+        "text": ""
+      }
+    },
+    {
+      "id": "/Copper_ore",
+      "title": "Copper ore",
+      "image": {
+        "imgRelativeUrl": "/images/thumb/Copper_ore.png/32px-Copper_ore.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png",
+        "text": ""
+      }
+    },
+    {
+      "id": "/Crude_oil",
+      "title": "Crude oil",
+      "image": {
+        "imgRelativeUrl": "/images/Crude_oil.png",
+        "imgUrl": "https://wiki.factorio.com/images/Crude_oil.png",
+        "text": ""
+      }
+    },
+    {
+      "id": "/Lubricant",
+      "title": "Lubricant",
+      "image": {
+        "imgRelativeUrl": "/images/Lubricant.png",
+        "imgUrl": "https://wiki.factorio.com/images/Lubricant.png",
+        "text": "15"
+      }
+    },
+    {
+      "id": "/Electric_engine_unit",
+      "title": "Electric engine unit",
+      "image": {
+        "imgRelativeUrl": "/images/Electric_engine_unit.png",
+        "imgUrl": "https://wiki.factorio.com/images/Electric_engine_unit.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Pipe",
+      "title": "Pipe",
+      "image": {
+        "imgRelativeUrl": "/images/Pipe.png",
+        "imgUrl": "https://wiki.factorio.com/images/Pipe.png",
+        "text": "2"
+      }
+    },
+    {
+      "id": "/Steel_plate",
+      "title": "Steel plate",
+      "image": {
+        "imgRelativeUrl": "/images/Steel_plate.png",
+        "imgUrl": "https://wiki.factorio.com/images/Steel_plate.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Water",
+      "title": "Water",
+      "image": {
+        "imgRelativeUrl": "/images/Water.png",
+        "imgUrl": "https://wiki.factorio.com/images/Water.png",
         "text": "10"
+      }
+    },
+    {
+      "id": "/Explosives",
+      "title": "Explosives",
+      "image": {
+        "imgRelativeUrl": "/images/Explosives.png",
+        "imgUrl": "https://wiki.factorio.com/images/Explosives.png",
+        "text": "2"
+      }
+    },
+    {
+      "id": "/Flying_robot_frame",
+      "title": "Flying robot frame",
+      "image": {
+        "imgRelativeUrl": "/images/Flying_robot_frame.png",
+        "imgUrl": "https://wiki.factorio.com/images/Flying_robot_frame.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Iron_ore",
+      "title": "Iron ore",
+      "image": {
+        "imgRelativeUrl": "/images/thumb/Iron_ore.png/32px-Iron_ore.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png",
+        "text": ""
+      }
+    },
+    {
+      "id": "/Iron_stick",
+      "title": "Iron stick",
+      "image": {
+        "imgRelativeUrl": "/images/Iron_stick.png",
+        "imgUrl": "https://wiki.factorio.com/images/Iron_stick.png",
+        "text": "2"
+      }
+    },
+    {
+      "id": "/Uranium-235",
+      "title": "Uranium-235",
+      "image": {
+        "imgRelativeUrl": "/images/Uranium-235.png",
+        "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
+        "text": "40"
+      }
+    },
+    {
+      "id": "/Uranium-238",
+      "title": "Uranium-238",
+      "image": {
+        "imgRelativeUrl": "/images/Uranium-238.png",
+        "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
+        "text": "5"
+      }
+    },
+    {
+      "id": "/Inserter",
+      "title": "Inserter",
+      "image": {
+        "imgRelativeUrl": "/images/Inserter.png",
+        "imgUrl": "https://wiki.factorio.com/images/Inserter.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Transport_belt",
+      "title": "Transport belt",
+      "image": {
+        "imgRelativeUrl": "/images/Transport_belt.png",
+        "imgUrl": "https://wiki.factorio.com/images/Transport_belt.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Logistic_science_pack",
+      "title": "Logistic science pack",
+      "image": {
+        "imgRelativeUrl": "/images/Logistic_science_pack.png",
+        "imgUrl": "https://wiki.factorio.com/images/Logistic_science_pack.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Low_density_structure",
+      "title": "Low density structure",
+      "image": {
+        "imgRelativeUrl": "/images/Low_density_structure.png",
+        "imgUrl": "https://wiki.factorio.com/images/Low_density_structure.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Heavy_oil",
+      "title": "Heavy oil",
+      "image": {
+        "imgRelativeUrl": "/images/Heavy_oil.png",
+        "imgUrl": "https://wiki.factorio.com/images/Heavy_oil.png",
+        "text": "10"
+      }
+    },
+    {
+      "id": "/Grenade",
+      "title": "Grenade",
+      "image": {
+        "imgRelativeUrl": "/images/Grenade.png",
+        "imgUrl": "https://wiki.factorio.com/images/Grenade.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Piercing_rounds_magazine",
+      "title": "Piercing rounds magazine",
+      "image": {
+        "imgRelativeUrl": "/images/Piercing_rounds_magazine.png",
+        "imgUrl": "https://wiki.factorio.com/images/Piercing_rounds_magazine.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Wall",
+      "title": "Wall",
+      "image": {
+        "imgRelativeUrl": "/images/Wall.png",
+        "imgUrl": "https://wiki.factorio.com/images/Wall.png",
+        "text": "2"
+      }
+    },
+    {
+      "id": "/Military_science_pack",
+      "title": "Military science pack",
+      "image": {
+        "imgRelativeUrl": "/images/Military_science_pack.png",
+        "imgUrl": "https://wiki.factorio.com/images/Military_science_pack.png",
+        "text": "2"
+      }
+    },
+    {
+      "id": "/Rocket_fuel",
+      "title": "Rocket fuel",
+      "image": {
+        "imgRelativeUrl": "/images/Rocket_fuel.png",
+        "imgUrl": "https://wiki.factorio.com/images/Rocket_fuel.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Nuclear_fuel",
+      "title": "Nuclear fuel",
+      "image": {
+        "imgRelativeUrl": "/images/Nuclear_fuel.png",
+        "imgUrl": "https://wiki.factorio.com/images/Nuclear_fuel.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Used_up_uranium_fuel_cell",
+      "title": "Used up uranium fuel cell",
+      "image": {
+        "imgRelativeUrl": "/images/Used_up_uranium_fuel_cell.png",
+        "imgUrl": "https://wiki.factorio.com/images/Used_up_uranium_fuel_cell.png",
+        "text": "5"
+      }
+    },
+    {
+      "id": "/Petroleum_gas",
+      "title": "Petroleum gas",
+      "image": {
+        "imgRelativeUrl": "/images/Petroleum_gas.png",
+        "imgUrl": "https://wiki.factorio.com/images/Petroleum_gas.png",
+        "text": "20"
+      }
+    },
+    {
+      "id": "/Processing_unit",
+      "title": "Processing unit",
+      "image": {
+        "imgRelativeUrl": "/images/Processing_unit.png",
+        "imgUrl": "https://wiki.factorio.com/images/Processing_unit.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Electric_furnace",
+      "title": "Electric furnace",
+      "image": {
+        "imgRelativeUrl": "/images/Electric_furnace.png",
+        "imgUrl": "https://wiki.factorio.com/images/Electric_furnace.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Productivity_module",
+      "title": "Productivity module",
+      "image": {
+        "imgRelativeUrl": "/images/Productivity_module.png",
+        "imgUrl": "https://wiki.factorio.com/images/Productivity_module.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Rail",
+      "title": "Rail",
+      "image": {
+        "imgRelativeUrl": "/images/Straight_rail.png",
+        "imgUrl": "https://wiki.factorio.com/images/Straight_rail.png",
+        "text": "30"
+      }
+    },
+    {
+      "id": "/Production_science_pack",
+      "title": "Production science pack",
+      "image": {
+        "imgRelativeUrl": "/images/Production_science_pack.png",
+        "imgUrl": "https://wiki.factorio.com/images/Production_science_pack.png",
+        "text": "3"
+      }
+    },
+    {
+      "id": "/Raw_fish",
+      "title": "Raw fish",
+      "image": {
+        "imgRelativeUrl": "/images/Raw_fish.png",
+        "imgUrl": "https://wiki.factorio.com/images/Raw_fish.png",
+        "text": ""
+      }
+    },
+    {
+      "id": "/Speed_module",
+      "title": "Speed module",
+      "image": {
+        "imgRelativeUrl": "/images/Speed_module.png",
+        "imgUrl": "https://wiki.factorio.com/images/Speed_module.png",
+        "text": "1"
+      }
+    },
+    {
+      "id": "/Rocket_control_unit",
+      "title": "Rocket control unit",
+      "image": {
+        "imgRelativeUrl": "/images/Rocket_control_unit.png",
+        "imgUrl": "https://wiki.factorio.com/images/Rocket_control_unit.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Light_oil",
+      "title": "Light oil",
+      "image": {
+        "imgRelativeUrl": "/images/Light_oil.png",
+        "imgUrl": "https://wiki.factorio.com/images/Light_oil.png",
+        "text": "10"
+      }
+    },
+    {
+      "id": "/Solid_fuel",
+      "title": "Solid fuel",
+      "image": {
+        "imgRelativeUrl": "/images/Solid_fuel.png",
+        "imgUrl": "https://wiki.factorio.com/images/Solid_fuel.png",
+        "text": "10"
+      }
+    },
+    {
+      "id": "/Rocket_part",
+      "title": "Rocket part",
+      "image": {
+        "imgRelativeUrl": "/images/Rocket_part.png",
+        "imgUrl": "https://wiki.factorio.com/images/Rocket_part.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Accumulator",
+      "title": "Accumulator",
+      "image": {
+        "imgRelativeUrl": "/images/Accumulator.png",
+        "imgUrl": "https://wiki.factorio.com/images/Accumulator.png",
+        "text": "100"
+      }
+    },
+    {
+      "id": "/Radar",
+      "title": "Radar",
+      "image": {
+        "imgRelativeUrl": "/images/Radar.png",
+        "imgUrl": "https://wiki.factorio.com/images/Radar.png",
+        "text": "5"
+      }
+    },
+    {
+      "id": "/Solar_panel",
+      "title": "Solar panel",
+      "image": {
+        "imgRelativeUrl": "/images/Solar_panel.png",
+        "imgUrl": "https://wiki.factorio.com/images/Solar_panel.png",
+        "text": "100"
+      }
+    },
+    {
+      "id": "/Satellite",
+      "title": "Satellite",
+      "image": {
+        "imgRelativeUrl": "/images/Satellite.png",
+        "imgUrl": "https://wiki.factorio.com/images/Satellite.png",
+        "text": "1 "
+      }
+    },
+    {
+      "id": "/Stone",
+      "title": "Stone",
+      "image": {
+        "imgRelativeUrl": "/images/thumb/Stone.png/32px-Stone.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Stone.png/32px-Stone.png",
+        "text": ""
+      }
+    },
+    {
+      "id": "/Uranium_fuel_cell",
+      "title": "Uranium fuel cell",
+      "image": {
+        "imgRelativeUrl": "/images/Uranium_fuel_cell.png",
+        "imgUrl": "https://wiki.factorio.com/images/Uranium_fuel_cell.png",
+        "text": "10"
+      }
+    },
+    {
+      "id": "/Uranium_ore",
+      "title": "Uranium ore",
+      "image": {
+        "imgRelativeUrl": "/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
+        "text": ""
+      }
+    },
+    {
+      "id": "/Utility_science_pack",
+      "title": "Utility science pack",
+      "image": {
+        "imgRelativeUrl": "/images/Utility_science_pack.png",
+        "imgUrl": "https://wiki.factorio.com/images/Utility_science_pack.png",
+        "text": "3"
+      }
+    },
+    {
+      "id": "/Wood",
+      "title": "Wood",
+      "image": {
+        "imgRelativeUrl": "/images/Wood.png",
+        "imgUrl": "https://wiki.factorio.com/images/Wood.png",
+        "text": ""
       }
     },
     {
@@ -76,10 +580,782 @@
   "recipes": [
     {
       "inputs": [
-        "/Crude_oil"
+        {
+          "id": "/Copper_cable",
+          "time": "4"
+        },
+        {
+          "id": "/Electronic_circuit",
+          "time": "2"
+        },
+        {
+          "id": "/Plastic_bar",
+          "time": "2"
+        }
       ],
       "outputs": [
-        "/Petroleum_gas"
+        {
+          "id": "/Advanced_circuit",
+          "time": "1 "
+        }
+      ],
+      "time": "6"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Alien_artifact",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Alien_science_pack",
+          "time": "10"
+        }
+      ],
+      "time": "12"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Copper_plate",
+          "time": "1"
+        },
+        {
+          "id": "/Iron_gear_wheel",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Automation_science_pack",
+          "time": "1 "
+        }
+      ],
+      "time": "5"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Copper_plate",
+          "time": "1"
+        },
+        {
+          "id": "/Iron_plate",
+          "time": "1"
+        },
+        {
+          "id": "/Sulfuric_acid",
+          "time": "20"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Battery",
+          "time": "1 "
+        }
+      ],
+      "time": "4"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Advanced_circuit",
+          "time": "3"
+        },
+        {
+          "id": "/Engine_unit",
+          "time": "2"
+        },
+        {
+          "id": "/Sulfur",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Chemical_science_pack",
+          "time": "2"
+        }
+      ],
+      "time": "24"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Copper_plate",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Copper_cable",
+          "time": "2"
+        }
+      ],
+      "time": "0.5"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Copper_ore",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Copper_plate",
+          "time": "1 "
+        }
+      ],
+      "time": "3.2"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Electronic_circuit",
+          "time": "2"
+        },
+        {
+          "id": "/Engine_unit",
+          "time": "1"
+        },
+        {
+          "id": "/Lubricant",
+          "time": "15"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Electric_engine_unit",
+          "time": "1 "
+        }
+      ],
+      "time": "10"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Copper_cable",
+          "time": "3"
+        },
+        {
+          "id": "/Iron_plate",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Electronic_circuit",
+          "time": "1 "
+        }
+      ],
+      "time": "0.5"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Iron_gear_wheel",
+          "time": "1"
+        },
+        {
+          "id": "/Pipe",
+          "time": "2"
+        },
+        {
+          "id": "/Steel_plate",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Engine_unit",
+          "time": "1 "
+        }
+      ],
+      "time": "10"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Coal",
+          "time": "1"
+        },
+        {
+          "id": "/Sulfur",
+          "time": "1"
+        },
+        {
+          "id": "/Water",
+          "time": "10"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Explosives",
+          "time": "2"
+        }
+      ],
+      "time": "4"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Battery",
+          "time": "2"
+        },
+        {
+          "id": "/Electric_engine_unit",
+          "time": "1"
+        },
+        {
+          "id": "/Electronic_circuit",
+          "time": "3"
+        },
+        {
+          "id": "/Steel_plate",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Flying_robot_frame",
+          "time": "1 "
+        }
+      ],
+      "time": "20"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Iron_plate",
+          "time": "2"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Iron_gear_wheel",
+          "time": "1 "
+        }
+      ],
+      "time": "0.5"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Iron_ore",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Iron_plate",
+          "time": "1 "
+        }
+      ],
+      "time": "3.2"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Iron_plate",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Iron_stick",
+          "time": "2"
+        }
+      ],
+      "time": "0.5"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Uranium-235",
+          "time": "40"
+        },
+        {
+          "id": "/Uranium-238",
+          "time": "5"
+        },
+        {
+          "id": "/Uranium-235",
+          "time": "41"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Uranium-238",
+          "time": "2"
+        }
+      ],
+      "time": "60"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Inserter",
+          "time": "1"
+        },
+        {
+          "id": "/Transport_belt",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Logistic_science_pack",
+          "time": "1 "
+        }
+      ],
+      "time": "6"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Copper_plate",
+          "time": "20"
+        },
+        {
+          "id": "/Plastic_bar",
+          "time": "5"
+        },
+        {
+          "id": "/Steel_plate",
+          "time": "2"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Low_density_structure",
+          "time": "1 "
+        }
+      ],
+      "time": "20"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Heavy_oil",
+          "time": "10"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Lubricant",
+          "time": "10"
+        }
+      ],
+      "time": "1"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Grenade",
+          "time": "1"
+        },
+        {
+          "id": "/Piercing_rounds_magazine",
+          "time": "1"
+        },
+        {
+          "id": "/Wall",
+          "time": "2"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Military_science_pack",
+          "time": "2"
+        }
+      ],
+      "time": "10"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Rocket_fuel",
+          "time": "1"
+        },
+        {
+          "id": "/Uranium-235",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Nuclear_fuel",
+          "time": "1 "
+        }
+      ],
+      "time": "90"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Used_up_uranium_fuel_cell",
+          "time": "5"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Uranium-238",
+          "time": "3"
+        }
+      ],
+      "time": "60"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Coal",
+          "time": "1"
+        },
+        {
+          "id": "/Petroleum_gas",
+          "time": "20"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Plastic_bar",
+          "time": "2"
+        }
+      ],
+      "time": "1"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Advanced_circuit",
+          "time": "2"
+        },
+        {
+          "id": "/Electronic_circuit",
+          "time": "20"
+        },
+        {
+          "id": "/Sulfuric_acid",
+          "time": "5"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Processing_unit",
+          "time": "1 "
+        }
+      ],
+      "time": "10"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Electric_furnace",
+          "time": "1"
+        },
+        {
+          "id": "/Productivity_module",
+          "time": "1"
+        },
+        {
+          "id": "/Rail",
+          "time": "30"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Production_science_pack",
+          "time": "3"
+        }
+      ],
+      "time": "21"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Processing_unit",
+          "time": "1"
+        },
+        {
+          "id": "/Speed_module",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Rocket_control_unit",
+          "time": "1 "
+        }
+      ],
+      "time": "30"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Light_oil",
+          "time": "10"
+        },
+        {
+          "id": "/Solid_fuel",
+          "time": "10"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Rocket_fuel",
+          "time": "1 "
+        }
+      ],
+      "time": "30"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Low_density_structure",
+          "time": "10"
+        },
+        {
+          "id": "/Rocket_control_unit",
+          "time": "10"
+        },
+        {
+          "id": "/Rocket_fuel",
+          "time": "10"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Rocket_part",
+          "time": "1 "
+        }
+      ],
+      "time": "3"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Accumulator",
+          "time": "100"
+        },
+        {
+          "id": "/Low_density_structure",
+          "time": "100"
+        },
+        {
+          "id": "/Processing_unit",
+          "time": "100"
+        },
+        {
+          "id": "/Radar",
+          "time": "5"
+        },
+        {
+          "id": "/Rocket_fuel",
+          "time": "50"
+        },
+        {
+          "id": "/Solar_panel",
+          "time": "100"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Satellite",
+          "time": "1 "
+        }
+      ],
+      "time": "5"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Iron_plate",
+          "time": "5"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Steel_plate",
+          "time": "1 "
+        }
+      ],
+      "time": "16"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Petroleum_gas",
+          "time": "30"
+        },
+        {
+          "id": "/Water",
+          "time": "30"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Sulfur",
+          "time": "2"
+        }
+      ],
+      "time": "1"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Iron_plate",
+          "time": "1"
+        },
+        {
+          "id": "/Sulfur",
+          "time": "5"
+        },
+        {
+          "id": "/Water",
+          "time": "100"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Sulfuric_acid",
+          "time": "50"
+        }
+      ],
+      "time": "1"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Iron_plate",
+          "time": "10"
+        },
+        {
+          "id": "/Uranium-235",
+          "time": "1"
+        },
+        {
+          "id": "/Uranium-238",
+          "time": "19"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Uranium_fuel_cell",
+          "time": "10"
+        }
+      ],
+      "time": "10"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Uranium_ore",
+          "time": "10"
+        },
+        {
+          "id": "/Uranium-235",
+          "time": "0.007"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Uranium-238",
+          "time": "0.993"
+        }
+      ],
+      "time": "12"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Uranium_ore",
+          "time": "10"
+        },
+        {
+          "id": "/Uranium-235",
+          "time": "0.007"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Uranium-238",
+          "time": "0.993"
+        }
+      ],
+      "time": "12"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Uranium_ore",
+          "time": "10"
+        },
+        {
+          "id": "/Uranium-235",
+          "time": "0.007"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Uranium-238",
+          "time": "0.993"
+        }
+      ],
+      "time": "12"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Uranium_fuel_cell",
+          "time": "1"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Used_up_uranium_fuel_cell",
+          "time": "1 "
+        }
+      ],
+      "time": "200"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Flying_robot_frame",
+          "time": "1"
+        },
+        {
+          "id": "/Low_density_structure",
+          "time": "3"
+        },
+        {
+          "id": "/Processing_unit",
+          "time": "2"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Utility_science_pack",
+          "time": "3"
+        }
+      ],
+      "time": "21"
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Crude_oil",
+          "time": "100"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Petroleum_gas",
+          "time": "45"
+        }
       ],
       "time": "5",
       "process": {
@@ -100,13 +1376,28 @@
     },
     {
       "inputs": [
-        "/Crude_oil",
-        "/Water"
+        {
+          "id": "/Crude_oil",
+          "time": "100"
+        },
+        {
+          "id": "/Water",
+          "time": "50"
+        }
       ],
       "outputs": [
-        "/Heavy_oil",
-        "/Light_oil",
-        "/Petroleum_gas"
+        {
+          "id": "/Heavy_oil",
+          "time": "25"
+        },
+        {
+          "id": "/Light_oil",
+          "time": "45"
+        },
+        {
+          "id": "/Petroleum_gas",
+          "time": "55"
+        }
       ],
       "time": "5",
       "process": {
@@ -127,11 +1418,20 @@
     },
     {
       "inputs": [
-        "/Heavy_oil",
-        "/Water"
+        {
+          "id": "/Heavy_oil",
+          "time": "40"
+        },
+        {
+          "id": "/Water",
+          "time": "30"
+        }
       ],
       "outputs": [
-        "/Light_oil"
+        {
+          "id": "/Light_oil",
+          "time": "30"
+        }
       ],
       "time": "2",
       "process": {
@@ -152,11 +1452,20 @@
     },
     {
       "inputs": [
-        "/Light_oil",
-        "/Water"
+        {
+          "id": "/Light_oil",
+          "time": "30"
+        },
+        {
+          "id": "/Water",
+          "time": "30"
+        }
       ],
       "outputs": [
-        "/Petroleum_gas"
+        {
+          "id": "/Petroleum_gas",
+          "time": "20"
+        }
       ],
       "time": "2",
       "process": {
@@ -177,14 +1486,32 @@
     },
     {
       "inputs": [
-        "/Coal",
-        "/Heavy_oil",
-        "/Steam"
+        {
+          "id": "/Coal",
+          "time": "10"
+        },
+        {
+          "id": "/Heavy_oil",
+          "time": "25"
+        },
+        {
+          "id": "/Steam",
+          "time": "50"
+        }
       ],
       "outputs": [
-        "/Heavy_oil",
-        "/Light_oil",
-        "/Petroleum_gas"
+        {
+          "id": "/Heavy_oil",
+          "time": "90"
+        },
+        {
+          "id": "/Light_oil",
+          "time": "20"
+        },
+        {
+          "id": "/Petroleum_gas",
+          "time": "10"
+        }
       ],
       "time": "5",
       "process": {
