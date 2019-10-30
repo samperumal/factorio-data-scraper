@@ -3,1737 +3,204 @@
     {
       "id": "/Time",
       "title": "Time",
-      "imgRelativeUrl": "/images/Time_icon.png",
-      "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-      "text": "6"
-    },
-    {
-      "id": "/Copper_cable",
-      "title": "Copper cable",
-      "imgRelativeUrl": "/images/Copper_cable.png",
-      "imgUrl": "https://wiki.factorio.com/images/Copper_cable.png",
-      "text": "4"
-    },
-    {
-      "id": "/Electronic_circuit",
-      "title": "Electronic circuit",
-      "imgRelativeUrl": "/images/Electronic_circuit.png",
-      "imgUrl": "https://wiki.factorio.com/images/Electronic_circuit.png",
-      "text": "2"
-    },
-    {
-      "id": "/Plastic_bar",
-      "title": "Plastic bar",
-      "imgRelativeUrl": "/images/Plastic_bar.png",
-      "imgUrl": "https://wiki.factorio.com/images/Plastic_bar.png",
-      "text": "2"
-    },
-    {
-      "id": "/Advanced_circuit",
-      "title": "Advanced circuit",
-      "imgRelativeUrl": "/images/Advanced_circuit.png",
-      "imgUrl": "https://wiki.factorio.com/images/Advanced_circuit.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Alien_artifact",
-      "title": "Alien artifact",
-      "imgRelativeUrl": "/images/Alien_artifact.png",
-      "imgUrl": "https://wiki.factorio.com/images/Alien_artifact.png",
-      "text": "1"
-    },
-    {
-      "id": "/Alien_science_pack",
-      "title": "Alien science pack",
-      "imgRelativeUrl": "/images/Alien_science_pack.png",
-      "imgUrl": "https://wiki.factorio.com/images/Alien_science_pack.png",
-      "text": "10"
-    },
-    {
-      "id": "/Copper_plate",
-      "title": "Copper plate",
-      "imgRelativeUrl": "/images/Copper_plate.png",
-      "imgUrl": "https://wiki.factorio.com/images/Copper_plate.png",
-      "text": "1"
-    },
-    {
-      "id": "/Iron_gear_wheel",
-      "title": "Iron gear wheel",
-      "imgRelativeUrl": "/images/Iron_gear_wheel.png",
-      "imgUrl": "https://wiki.factorio.com/images/Iron_gear_wheel.png",
-      "text": "1"
-    },
-    {
-      "id": "/Automation_science_pack",
-      "title": "Automation science pack",
-      "imgRelativeUrl": "/images/Automation_science_pack.png",
-      "imgUrl": "https://wiki.factorio.com/images/Automation_science_pack.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Iron_plate",
-      "title": "Iron plate",
-      "imgRelativeUrl": "/images/Iron_plate.png",
-      "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-      "text": "1"
-    },
-    {
-      "id": "/Sulfuric_acid",
-      "title": "Sulfuric acid",
-      "imgRelativeUrl": "/images/Sulfuric_acid.png",
-      "imgUrl": "https://wiki.factorio.com/images/Sulfuric_acid.png",
-      "text": "20"
-    },
-    {
-      "id": "/Battery",
-      "title": "Battery",
-      "imgRelativeUrl": "/images/Battery.png",
-      "imgUrl": "https://wiki.factorio.com/images/Battery.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Engine_unit",
-      "title": "Engine unit",
-      "imgRelativeUrl": "/images/Engine_unit.png",
-      "imgUrl": "https://wiki.factorio.com/images/Engine_unit.png",
-      "text": "2"
-    },
-    {
-      "id": "/Sulfur",
-      "title": "Sulfur",
-      "imgRelativeUrl": "/images/Sulfur.png",
-      "imgUrl": "https://wiki.factorio.com/images/Sulfur.png",
-      "text": "1"
-    },
-    {
-      "id": "/Chemical_science_pack",
-      "title": "Chemical science pack",
-      "imgRelativeUrl": "/images/Chemical_science_pack.png",
-      "imgUrl": "https://wiki.factorio.com/images/Chemical_science_pack.png",
-      "text": "2"
-    },
-    {
-      "id": "/Coal",
-      "title": "Coal",
-      "imgRelativeUrl": "/images/thumb/Coal.png/32px-Coal.png",
-      "imgUrl": "https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png",
-      "text": ""
-    },
-    {
-      "id": "/Copper_ore",
-      "title": "Copper ore",
-      "imgRelativeUrl": "/images/thumb/Copper_ore.png/32px-Copper_ore.png",
-      "imgUrl": "https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png",
-      "text": ""
+      "image": {
+        "imgRelativeUrl": "/images/Time_icon.png",
+        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
+        "text": "5"
+      }
     },
     {
       "id": "/Crude_oil",
       "title": "Crude oil",
-      "imgRelativeUrl": "/images/Crude_oil.png",
-      "imgUrl": "https://wiki.factorio.com/images/Crude_oil.png",
-      "text": ""
-    },
-    {
-      "id": "/Lubricant",
-      "title": "Lubricant",
-      "imgRelativeUrl": "/images/Lubricant.png",
-      "imgUrl": "https://wiki.factorio.com/images/Lubricant.png",
-      "text": "15"
-    },
-    {
-      "id": "/Electric_engine_unit",
-      "title": "Electric engine unit",
-      "imgRelativeUrl": "/images/Electric_engine_unit.png",
-      "imgUrl": "https://wiki.factorio.com/images/Electric_engine_unit.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Pipe",
-      "title": "Pipe",
-      "imgRelativeUrl": "/images/Pipe.png",
-      "imgUrl": "https://wiki.factorio.com/images/Pipe.png",
-      "text": "2"
-    },
-    {
-      "id": "/Steel_plate",
-      "title": "Steel plate",
-      "imgRelativeUrl": "/images/Steel_plate.png",
-      "imgUrl": "https://wiki.factorio.com/images/Steel_plate.png",
-      "text": "1"
-    },
-    {
-      "id": "/Water",
-      "title": "Water",
-      "imgRelativeUrl": "/images/Water.png",
-      "imgUrl": "https://wiki.factorio.com/images/Water.png",
-      "text": "10"
-    },
-    {
-      "id": "/Explosives",
-      "title": "Explosives",
-      "imgRelativeUrl": "/images/Explosives.png",
-      "imgUrl": "https://wiki.factorio.com/images/Explosives.png",
-      "text": "2"
-    },
-    {
-      "id": "/Flying_robot_frame",
-      "title": "Flying robot frame",
-      "imgRelativeUrl": "/images/Flying_robot_frame.png",
-      "imgUrl": "https://wiki.factorio.com/images/Flying_robot_frame.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Iron_ore",
-      "title": "Iron ore",
-      "imgRelativeUrl": "/images/thumb/Iron_ore.png/32px-Iron_ore.png",
-      "imgUrl": "https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png",
-      "text": ""
-    },
-    {
-      "id": "/Iron_stick",
-      "title": "Iron stick",
-      "imgRelativeUrl": "/images/Iron_stick.png",
-      "imgUrl": "https://wiki.factorio.com/images/Iron_stick.png",
-      "text": "2"
-    },
-    {
-      "id": "/Uranium-235",
-      "title": "Uranium-235",
-      "imgRelativeUrl": "/images/Uranium-235.png",
-      "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
-      "text": "40"
-    },
-    {
-      "id": "/Uranium-238",
-      "title": "Uranium-238",
-      "imgRelativeUrl": "/images/Uranium-238.png",
-      "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
-      "text": "5"
-    },
-    {
-      "id": "/Inserter",
-      "title": "Inserter",
-      "imgRelativeUrl": "/images/Inserter.png",
-      "imgUrl": "https://wiki.factorio.com/images/Inserter.png",
-      "text": "1"
-    },
-    {
-      "id": "/Transport_belt",
-      "title": "Transport belt",
-      "imgRelativeUrl": "/images/Transport_belt.png",
-      "imgUrl": "https://wiki.factorio.com/images/Transport_belt.png",
-      "text": "1"
-    },
-    {
-      "id": "/Logistic_science_pack",
-      "title": "Logistic science pack",
-      "imgRelativeUrl": "/images/Logistic_science_pack.png",
-      "imgUrl": "https://wiki.factorio.com/images/Logistic_science_pack.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Low_density_structure",
-      "title": "Low density structure",
-      "imgRelativeUrl": "/images/Low_density_structure.png",
-      "imgUrl": "https://wiki.factorio.com/images/Low_density_structure.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Heavy_oil",
-      "title": "Heavy oil",
-      "imgRelativeUrl": "/images/Heavy_oil.png",
-      "imgUrl": "https://wiki.factorio.com/images/Heavy_oil.png",
-      "text": "10"
-    },
-    {
-      "id": "/Grenade",
-      "title": "Grenade",
-      "imgRelativeUrl": "/images/Grenade.png",
-      "imgUrl": "https://wiki.factorio.com/images/Grenade.png",
-      "text": "1"
-    },
-    {
-      "id": "/Piercing_rounds_magazine",
-      "title": "Piercing rounds magazine",
-      "imgRelativeUrl": "/images/Piercing_rounds_magazine.png",
-      "imgUrl": "https://wiki.factorio.com/images/Piercing_rounds_magazine.png",
-      "text": "1"
-    },
-    {
-      "id": "/Wall",
-      "title": "Wall",
-      "imgRelativeUrl": "/images/Wall.png",
-      "imgUrl": "https://wiki.factorio.com/images/Wall.png",
-      "text": "2"
-    },
-    {
-      "id": "/Military_science_pack",
-      "title": "Military science pack",
-      "imgRelativeUrl": "/images/Military_science_pack.png",
-      "imgUrl": "https://wiki.factorio.com/images/Military_science_pack.png",
-      "text": "2"
-    },
-    {
-      "id": "/Rocket_fuel",
-      "title": "Rocket fuel",
-      "imgRelativeUrl": "/images/Rocket_fuel.png",
-      "imgUrl": "https://wiki.factorio.com/images/Rocket_fuel.png",
-      "text": "1"
-    },
-    {
-      "id": "/Nuclear_fuel",
-      "title": "Nuclear fuel",
-      "imgRelativeUrl": "/images/Nuclear_fuel.png",
-      "imgUrl": "https://wiki.factorio.com/images/Nuclear_fuel.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Used_up_uranium_fuel_cell",
-      "title": "Used up uranium fuel cell",
-      "imgRelativeUrl": "/images/Used_up_uranium_fuel_cell.png",
-      "imgUrl": "https://wiki.factorio.com/images/Used_up_uranium_fuel_cell.png",
-      "text": "5"
+      "image": {
+        "imgRelativeUrl": "/images/Crude_oil.png",
+        "imgUrl": "https://wiki.factorio.com/images/Crude_oil.png",
+        "text": "100"
+      }
     },
     {
       "id": "/Petroleum_gas",
       "title": "Petroleum gas",
-      "imgRelativeUrl": "/images/Petroleum_gas.png",
-      "imgUrl": "https://wiki.factorio.com/images/Petroleum_gas.png",
-      "text": "20"
+      "image": {
+        "imgRelativeUrl": "/images/Petroleum_gas.png",
+        "imgUrl": "https://wiki.factorio.com/images/Petroleum_gas.png",
+        "text": "45"
+      }
     },
     {
-      "id": "/Processing_unit",
-      "title": "Processing unit",
-      "imgRelativeUrl": "/images/Processing_unit.png",
-      "imgUrl": "https://wiki.factorio.com/images/Processing_unit.png",
-      "text": "1 "
+      "id": "/Water",
+      "title": "Water",
+      "image": {
+        "imgRelativeUrl": "/images/Water.png",
+        "imgUrl": "https://wiki.factorio.com/images/Water.png",
+        "text": "50"
+      }
     },
     {
-      "id": "/Electric_furnace",
-      "title": "Electric furnace",
-      "imgRelativeUrl": "/images/Electric_furnace.png",
-      "imgUrl": "https://wiki.factorio.com/images/Electric_furnace.png",
-      "text": "1"
-    },
-    {
-      "id": "/Productivity_module",
-      "title": "Productivity module",
-      "imgRelativeUrl": "/images/Productivity_module.png",
-      "imgUrl": "https://wiki.factorio.com/images/Productivity_module.png",
-      "text": "1"
-    },
-    {
-      "id": "/Rail",
-      "title": "Rail",
-      "imgRelativeUrl": "/images/Straight_rail.png",
-      "imgUrl": "https://wiki.factorio.com/images/Straight_rail.png",
-      "text": "30"
-    },
-    {
-      "id": "/Production_science_pack",
-      "title": "Production science pack",
-      "imgRelativeUrl": "/images/Production_science_pack.png",
-      "imgUrl": "https://wiki.factorio.com/images/Production_science_pack.png",
-      "text": "3"
-    },
-    {
-      "id": "/Raw_fish",
-      "title": "Raw fish",
-      "imgRelativeUrl": "/images/Raw_fish.png",
-      "imgUrl": "https://wiki.factorio.com/images/Raw_fish.png",
-      "text": ""
-    },
-    {
-      "id": "/Speed_module",
-      "title": "Speed module",
-      "imgRelativeUrl": "/images/Speed_module.png",
-      "imgUrl": "https://wiki.factorio.com/images/Speed_module.png",
-      "text": "1"
-    },
-    {
-      "id": "/Rocket_control_unit",
-      "title": "Rocket control unit",
-      "imgRelativeUrl": "/images/Rocket_control_unit.png",
-      "imgUrl": "https://wiki.factorio.com/images/Rocket_control_unit.png",
-      "text": "1 "
+      "id": "/Heavy_oil",
+      "title": "Heavy oil",
+      "image": {
+        "imgRelativeUrl": "/images/Heavy_oil.png",
+        "imgUrl": "https://wiki.factorio.com/images/Heavy_oil.png",
+        "text": "25"
+      }
     },
     {
       "id": "/Light_oil",
       "title": "Light oil",
-      "imgRelativeUrl": "/images/Light_oil.png",
-      "imgUrl": "https://wiki.factorio.com/images/Light_oil.png",
-      "text": "10"
+      "image": {
+        "imgRelativeUrl": "/images/Light_oil.png",
+        "imgUrl": "https://wiki.factorio.com/images/Light_oil.png",
+        "text": "45"
+      }
     },
     {
-      "id": "/Solid_fuel",
-      "title": "Solid fuel",
-      "imgRelativeUrl": "/images/Solid_fuel.png",
-      "imgUrl": "https://wiki.factorio.com/images/Solid_fuel.png",
-      "text": "10"
+      "id": "/Coal",
+      "title": "Coal",
+      "image": {
+        "imgRelativeUrl": "/images/thumb/Coal.png/32px-Coal.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png",
+        "text": "10"
+      }
     },
     {
-      "id": "/Rocket_part",
-      "title": "Rocket part",
-      "imgRelativeUrl": "/images/Rocket_part.png",
-      "imgUrl": "https://wiki.factorio.com/images/Rocket_part.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Accumulator",
-      "title": "Accumulator",
-      "imgRelativeUrl": "/images/Accumulator.png",
-      "imgUrl": "https://wiki.factorio.com/images/Accumulator.png",
-      "text": "100"
-    },
-    {
-      "id": "/Radar",
-      "title": "Radar",
-      "imgRelativeUrl": "/images/Radar.png",
-      "imgUrl": "https://wiki.factorio.com/images/Radar.png",
-      "text": "5"
-    },
-    {
-      "id": "/Solar_panel",
-      "title": "Solar panel",
-      "imgRelativeUrl": "/images/Solar_panel.png",
-      "imgUrl": "https://wiki.factorio.com/images/Solar_panel.png",
-      "text": "100"
-    },
-    {
-      "id": "/Satellite",
-      "title": "Satellite",
-      "imgRelativeUrl": "/images/Satellite.png",
-      "imgUrl": "https://wiki.factorio.com/images/Satellite.png",
-      "text": "1 "
-    },
-    {
-      "id": "/Stone",
-      "title": "Stone",
-      "imgRelativeUrl": "/images/thumb/Stone.png/32px-Stone.png",
-      "imgUrl": "https://wiki.factorio.com/images/thumb/Stone.png/32px-Stone.png",
-      "text": ""
-    },
-    {
-      "id": "/Uranium_fuel_cell",
-      "title": "Uranium fuel cell",
-      "imgRelativeUrl": "/images/Uranium_fuel_cell.png",
-      "imgUrl": "https://wiki.factorio.com/images/Uranium_fuel_cell.png",
-      "text": "10"
-    },
-    {
-      "id": "/Uranium_ore",
-      "title": "Uranium ore",
-      "imgRelativeUrl": "/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
-      "imgUrl": "https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
-      "text": ""
-    },
-    {
-      "id": "/Utility_science_pack",
-      "title": "Utility science pack",
-      "imgRelativeUrl": "/images/Utility_science_pack.png",
-      "imgUrl": "https://wiki.factorio.com/images/Utility_science_pack.png",
-      "text": "3"
-    },
-    {
-      "id": "/Wood",
-      "title": "Wood",
-      "imgRelativeUrl": "/images/Wood.png",
-      "imgUrl": "https://wiki.factorio.com/images/Wood.png",
-      "text": ""
+      "id": "/Steam",
+      "title": "Steam",
+      "image": {
+        "imgRelativeUrl": "/images/Steam.png",
+        "imgUrl": "https://wiki.factorio.com/images/Steam.png",
+        "text": "50"
+      }
     }
   ],
   "recipes": [
     {
       "inputs": [
-        {
-          "id": "/Copper_cable",
-          "title": "Copper cable",
-          "imgRelativeUrl": "/images/Copper_cable.png",
-          "imgUrl": "https://wiki.factorio.com/images/Copper_cable.png",
-          "text": "4"
-        },
-        {
-          "id": "/Electronic_circuit",
-          "title": "Electronic circuit",
-          "imgRelativeUrl": "/images/Electronic_circuit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Electronic_circuit.png",
-          "text": "2"
-        },
-        {
-          "id": "/Plastic_bar",
-          "title": "Plastic bar",
-          "imgRelativeUrl": "/images/Plastic_bar.png",
-          "imgUrl": "https://wiki.factorio.com/images/Plastic_bar.png",
-          "text": "2"
-        }
+        "/Crude_oil"
       ],
-      "output": {
-        "id": "/Advanced_circuit",
-        "title": "Advanced circuit",
-        "imgRelativeUrl": "/images/Advanced_circuit.png",
-        "imgUrl": "https://wiki.factorio.com/images/Advanced_circuit.png",
-        "text": "1 "
+      "outputs": [
+        "/Petroleum_gas"
+      ],
+      "time": "5",
+      "process": {
+        "imgRelativeUrl": "/images/Basic_oil_processing.png",
+        "imgUrl": "https://wiki.factorio.com/images/Basic_oil_processing.png",
+        "text": " Basic oil processing"
       },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "6"
+      "machine": {
+        "imgRelativeUrl": "/images/Oil_refinery.png",
+        "imgUrl": "https://wiki.factorio.com/images/Oil_refinery.png",
+        "text": ""
+      },
+      "tech": {
+        "imgRelativeUrl": "/images/thumb/Oil_processing_%28research%29.png/32px-Oil_processing_%28research%29.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Oil_processing_%28research%29.png/32px-Oil_processing_%28research%29.png",
+        "text": ""
       }
     },
     {
       "inputs": [
-        {
-          "id": "/Alien_artifact",
-          "title": "Alien artifact",
-          "imgRelativeUrl": "/images/Alien_artifact.png",
-          "imgUrl": "https://wiki.factorio.com/images/Alien_artifact.png",
-          "text": "1"
-        }
+        "/Crude_oil",
+        "/Water"
       ],
-      "output": {
-        "id": "/Alien_science_pack",
-        "title": "Alien science pack",
-        "imgRelativeUrl": "/images/Alien_science_pack.png",
-        "imgUrl": "https://wiki.factorio.com/images/Alien_science_pack.png",
-        "text": "10"
+      "outputs": [
+        "/Heavy_oil",
+        "/Light_oil",
+        "/Petroleum_gas"
+      ],
+      "time": "5",
+      "process": {
+        "imgRelativeUrl": "/images/Advanced_oil_processing.png",
+        "imgUrl": "https://wiki.factorio.com/images/Advanced_oil_processing.png",
+        "text": " Advanced oil processing"
       },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "12"
+      "machine": {
+        "imgRelativeUrl": "/images/Oil_refinery.png",
+        "imgUrl": "https://wiki.factorio.com/images/Oil_refinery.png",
+        "text": ""
+      },
+      "tech": {
+        "imgRelativeUrl": "/images/thumb/Advanced_oil_processing_%28research%29.png/32px-Advanced_oil_processing_%28research%29.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Advanced_oil_processing_%28research%29.png/32px-Advanced_oil_processing_%28research%29.png",
+        "text": ""
       }
     },
     {
       "inputs": [
-        {
-          "id": "/Copper_plate",
-          "title": "Copper plate",
-          "imgRelativeUrl": "/images/Copper_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Copper_plate.png",
-          "text": "1"
-        },
-        {
-          "id": "/Iron_gear_wheel",
-          "title": "Iron gear wheel",
-          "imgRelativeUrl": "/images/Iron_gear_wheel.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_gear_wheel.png",
-          "text": "1"
-        }
+        "/Heavy_oil",
+        "/Water"
       ],
-      "output": {
-        "id": "/Automation_science_pack",
-        "title": "Automation science pack",
-        "imgRelativeUrl": "/images/Automation_science_pack.png",
-        "imgUrl": "https://wiki.factorio.com/images/Automation_science_pack.png",
-        "text": "1 "
+      "outputs": [
+        "/Light_oil"
+      ],
+      "time": "2",
+      "process": {
+        "imgRelativeUrl": "/images/Heavy_oil_cracking.png",
+        "imgUrl": "https://wiki.factorio.com/images/Heavy_oil_cracking.png",
+        "text": " Heavy oil cracking"
       },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "5"
+      "machine": {
+        "imgRelativeUrl": "/images/Chemical_plant.png",
+        "imgUrl": "https://wiki.factorio.com/images/Chemical_plant.png",
+        "text": ""
+      },
+      "tech": {
+        "imgRelativeUrl": "/images/thumb/Advanced_oil_processing_%28research%29.png/32px-Advanced_oil_processing_%28research%29.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Advanced_oil_processing_%28research%29.png/32px-Advanced_oil_processing_%28research%29.png",
+        "text": ""
       }
     },
     {
       "inputs": [
-        {
-          "id": "/Copper_plate",
-          "title": "Copper plate",
-          "imgRelativeUrl": "/images/Copper_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Copper_plate.png",
-          "text": "1"
-        },
-        {
-          "id": "/Iron_plate",
-          "title": "Iron plate",
-          "imgRelativeUrl": "/images/Iron_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-          "text": "1"
-        },
-        {
-          "id": "/Sulfuric_acid",
-          "title": "Sulfuric acid",
-          "imgRelativeUrl": "/images/Sulfuric_acid.png",
-          "imgUrl": "https://wiki.factorio.com/images/Sulfuric_acid.png",
-          "text": "20"
-        }
+        "/Light_oil",
+        "/Water"
       ],
-      "output": {
-        "id": "/Battery",
-        "title": "Battery",
-        "imgRelativeUrl": "/images/Battery.png",
-        "imgUrl": "https://wiki.factorio.com/images/Battery.png",
-        "text": "1 "
+      "outputs": [
+        "/Petroleum_gas"
+      ],
+      "time": "2",
+      "process": {
+        "imgRelativeUrl": "/images/Light_oil_cracking.png",
+        "imgUrl": "https://wiki.factorio.com/images/Light_oil_cracking.png",
+        "text": " Light oil cracking"
       },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "4"
+      "machine": {
+        "imgRelativeUrl": "/images/Chemical_plant.png",
+        "imgUrl": "https://wiki.factorio.com/images/Chemical_plant.png",
+        "text": ""
+      },
+      "tech": {
+        "imgRelativeUrl": "/images/thumb/Advanced_oil_processing_%28research%29.png/32px-Advanced_oil_processing_%28research%29.png",
+        "imgUrl": "https://wiki.factorio.com/images/thumb/Advanced_oil_processing_%28research%29.png/32px-Advanced_oil_processing_%28research%29.png",
+        "text": ""
       }
     },
     {
       "inputs": [
-        {
-          "id": "/Advanced_circuit",
-          "title": "Advanced circuit",
-          "imgRelativeUrl": "/images/Advanced_circuit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Advanced_circuit.png",
-          "text": "3"
-        },
-        {
-          "id": "/Engine_unit",
-          "title": "Engine unit",
-          "imgRelativeUrl": "/images/Engine_unit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Engine_unit.png",
-          "text": "2"
-        },
-        {
-          "id": "/Sulfur",
-          "title": "Sulfur",
-          "imgRelativeUrl": "/images/Sulfur.png",
-          "imgUrl": "https://wiki.factorio.com/images/Sulfur.png",
-          "text": "1"
-        }
+        "/Coal",
+        "/Heavy_oil",
+        "/Steam"
       ],
-      "output": {
-        "id": "/Chemical_science_pack",
-        "title": "Chemical science pack",
-        "imgRelativeUrl": "/images/Chemical_science_pack.png",
-        "imgUrl": "https://wiki.factorio.com/images/Chemical_science_pack.png",
-        "text": "2"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "24"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Copper_plate",
-          "title": "Copper plate",
-          "imgRelativeUrl": "/images/Copper_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Copper_plate.png",
-          "text": "1"
-        }
+      "outputs": [
+        "/Heavy_oil",
+        "/Light_oil",
+        "/Petroleum_gas"
       ],
-      "output": {
-        "id": "/Copper_cable",
-        "title": "Copper cable",
-        "imgRelativeUrl": "/images/Copper_cable.png",
-        "imgUrl": "https://wiki.factorio.com/images/Copper_cable.png",
-        "text": "2"
+      "time": "5",
+      "process": {
+        "imgRelativeUrl": "/images/Coal_liquefaction.png",
+        "imgUrl": "https://wiki.factorio.com/images/Coal_liquefaction.png",
+        "text": " Coal liquefaction"
       },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "0.5"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Copper_ore",
-          "title": "Copper ore",
-          "imgRelativeUrl": "/images/thumb/Copper_ore.png/32px-Copper_ore.png",
-          "imgUrl": "https://wiki.factorio.com/images/thumb/Copper_ore.png/32px-Copper_ore.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Copper_plate",
-        "title": "Copper plate",
-        "imgRelativeUrl": "/images/Copper_plate.png",
-        "imgUrl": "https://wiki.factorio.com/images/Copper_plate.png",
-        "text": "1 "
+      "machine": {
+        "imgRelativeUrl": "/images/Oil_refinery.png",
+        "imgUrl": "https://wiki.factorio.com/images/Oil_refinery.png",
+        "text": ""
       },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "3.2"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Electronic_circuit",
-          "title": "Electronic circuit",
-          "imgRelativeUrl": "/images/Electronic_circuit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Electronic_circuit.png",
-          "text": "2"
-        },
-        {
-          "id": "/Engine_unit",
-          "title": "Engine unit",
-          "imgRelativeUrl": "/images/Engine_unit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Engine_unit.png",
-          "text": "1"
-        },
-        {
-          "id": "/Lubricant",
-          "title": "Lubricant",
-          "imgRelativeUrl": "/images/Lubricant.png",
-          "imgUrl": "https://wiki.factorio.com/images/Lubricant.png",
-          "text": "15"
-        }
-      ],
-      "output": {
-        "id": "/Electric_engine_unit",
-        "title": "Electric engine unit",
-        "imgRelativeUrl": "/images/Electric_engine_unit.png",
-        "imgUrl": "https://wiki.factorio.com/images/Electric_engine_unit.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "10"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Copper_cable",
-          "title": "Copper cable",
-          "imgRelativeUrl": "/images/Copper_cable.png",
-          "imgUrl": "https://wiki.factorio.com/images/Copper_cable.png",
-          "text": "3"
-        },
-        {
-          "id": "/Iron_plate",
-          "title": "Iron plate",
-          "imgRelativeUrl": "/images/Iron_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Electronic_circuit",
-        "title": "Electronic circuit",
-        "imgRelativeUrl": "/images/Electronic_circuit.png",
-        "imgUrl": "https://wiki.factorio.com/images/Electronic_circuit.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "0.5"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Iron_gear_wheel",
-          "title": "Iron gear wheel",
-          "imgRelativeUrl": "/images/Iron_gear_wheel.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_gear_wheel.png",
-          "text": "1"
-        },
-        {
-          "id": "/Pipe",
-          "title": "Pipe",
-          "imgRelativeUrl": "/images/Pipe.png",
-          "imgUrl": "https://wiki.factorio.com/images/Pipe.png",
-          "text": "2"
-        },
-        {
-          "id": "/Steel_plate",
-          "title": "Steel plate",
-          "imgRelativeUrl": "/images/Steel_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Steel_plate.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Engine_unit",
-        "title": "Engine unit",
-        "imgRelativeUrl": "/images/Engine_unit.png",
-        "imgUrl": "https://wiki.factorio.com/images/Engine_unit.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "10"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Coal",
-          "title": "Coal",
-          "imgRelativeUrl": "/images/thumb/Coal.png/32px-Coal.png",
-          "imgUrl": "https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png",
-          "text": "1"
-        },
-        {
-          "id": "/Sulfur",
-          "title": "Sulfur",
-          "imgRelativeUrl": "/images/Sulfur.png",
-          "imgUrl": "https://wiki.factorio.com/images/Sulfur.png",
-          "text": "1"
-        },
-        {
-          "id": "/Water",
-          "title": "Water",
-          "imgRelativeUrl": "/images/Water.png",
-          "imgUrl": "https://wiki.factorio.com/images/Water.png",
-          "text": "10"
-        }
-      ],
-      "output": {
-        "id": "/Explosives",
-        "title": "Explosives",
-        "imgRelativeUrl": "/images/Explosives.png",
-        "imgUrl": "https://wiki.factorio.com/images/Explosives.png",
-        "text": "2"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "4"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Battery",
-          "title": "Battery",
-          "imgRelativeUrl": "/images/Battery.png",
-          "imgUrl": "https://wiki.factorio.com/images/Battery.png",
-          "text": "2"
-        },
-        {
-          "id": "/Electric_engine_unit",
-          "title": "Electric engine unit",
-          "imgRelativeUrl": "/images/Electric_engine_unit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Electric_engine_unit.png",
-          "text": "1"
-        },
-        {
-          "id": "/Electronic_circuit",
-          "title": "Electronic circuit",
-          "imgRelativeUrl": "/images/Electronic_circuit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Electronic_circuit.png",
-          "text": "3"
-        },
-        {
-          "id": "/Steel_plate",
-          "title": "Steel plate",
-          "imgRelativeUrl": "/images/Steel_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Steel_plate.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Flying_robot_frame",
-        "title": "Flying robot frame",
-        "imgRelativeUrl": "/images/Flying_robot_frame.png",
-        "imgUrl": "https://wiki.factorio.com/images/Flying_robot_frame.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "20"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Iron_plate",
-          "title": "Iron plate",
-          "imgRelativeUrl": "/images/Iron_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-          "text": "2"
-        }
-      ],
-      "output": {
-        "id": "/Iron_gear_wheel",
-        "title": "Iron gear wheel",
-        "imgRelativeUrl": "/images/Iron_gear_wheel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Iron_gear_wheel.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "0.5"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Iron_ore",
-          "title": "Iron ore",
-          "imgRelativeUrl": "/images/thumb/Iron_ore.png/32px-Iron_ore.png",
-          "imgUrl": "https://wiki.factorio.com/images/thumb/Iron_ore.png/32px-Iron_ore.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Iron_plate",
-        "title": "Iron plate",
-        "imgRelativeUrl": "/images/Iron_plate.png",
-        "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "3.2"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Iron_plate",
-          "title": "Iron plate",
-          "imgRelativeUrl": "/images/Iron_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Iron_stick",
-        "title": "Iron stick",
-        "imgRelativeUrl": "/images/Iron_stick.png",
-        "imgUrl": "https://wiki.factorio.com/images/Iron_stick.png",
-        "text": "2"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "0.5"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Uranium-235",
-          "title": "Uranium-235",
-          "imgRelativeUrl": "/images/Uranium-235.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
-          "text": "40"
-        },
-        {
-          "id": "/Uranium-238",
-          "title": "Uranium-238",
-          "imgRelativeUrl": "/images/Uranium-238.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
-          "text": "5"
-        },
-        {
-          "id": "/Uranium-235",
-          "title": "Uranium-235",
-          "imgRelativeUrl": "/images/Uranium-235.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
-          "text": "41"
-        }
-      ],
-      "output": {
-        "id": "/Uranium-238",
-        "title": "Uranium-238",
-        "imgRelativeUrl": "/images/Uranium-238.png",
-        "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
-        "text": "2"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "60"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Inserter",
-          "title": "Inserter",
-          "imgRelativeUrl": "/images/Inserter.png",
-          "imgUrl": "https://wiki.factorio.com/images/Inserter.png",
-          "text": "1"
-        },
-        {
-          "id": "/Transport_belt",
-          "title": "Transport belt",
-          "imgRelativeUrl": "/images/Transport_belt.png",
-          "imgUrl": "https://wiki.factorio.com/images/Transport_belt.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Logistic_science_pack",
-        "title": "Logistic science pack",
-        "imgRelativeUrl": "/images/Logistic_science_pack.png",
-        "imgUrl": "https://wiki.factorio.com/images/Logistic_science_pack.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "6"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Copper_plate",
-          "title": "Copper plate",
-          "imgRelativeUrl": "/images/Copper_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Copper_plate.png",
-          "text": "20"
-        },
-        {
-          "id": "/Plastic_bar",
-          "title": "Plastic bar",
-          "imgRelativeUrl": "/images/Plastic_bar.png",
-          "imgUrl": "https://wiki.factorio.com/images/Plastic_bar.png",
-          "text": "5"
-        },
-        {
-          "id": "/Steel_plate",
-          "title": "Steel plate",
-          "imgRelativeUrl": "/images/Steel_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Steel_plate.png",
-          "text": "2"
-        }
-      ],
-      "output": {
-        "id": "/Low_density_structure",
-        "title": "Low density structure",
-        "imgRelativeUrl": "/images/Low_density_structure.png",
-        "imgUrl": "https://wiki.factorio.com/images/Low_density_structure.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "20"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Heavy_oil",
-          "title": "Heavy oil",
-          "imgRelativeUrl": "/images/Heavy_oil.png",
-          "imgUrl": "https://wiki.factorio.com/images/Heavy_oil.png",
-          "text": "10"
-        }
-      ],
-      "output": {
-        "id": "/Lubricant",
-        "title": "Lubricant",
-        "imgRelativeUrl": "/images/Lubricant.png",
-        "imgUrl": "https://wiki.factorio.com/images/Lubricant.png",
-        "text": "10"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "1"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Grenade",
-          "title": "Grenade",
-          "imgRelativeUrl": "/images/Grenade.png",
-          "imgUrl": "https://wiki.factorio.com/images/Grenade.png",
-          "text": "1"
-        },
-        {
-          "id": "/Piercing_rounds_magazine",
-          "title": "Piercing rounds magazine",
-          "imgRelativeUrl": "/images/Piercing_rounds_magazine.png",
-          "imgUrl": "https://wiki.factorio.com/images/Piercing_rounds_magazine.png",
-          "text": "1"
-        },
-        {
-          "id": "/Wall",
-          "title": "Wall",
-          "imgRelativeUrl": "/images/Wall.png",
-          "imgUrl": "https://wiki.factorio.com/images/Wall.png",
-          "text": "2"
-        }
-      ],
-      "output": {
-        "id": "/Military_science_pack",
-        "title": "Military science pack",
-        "imgRelativeUrl": "/images/Military_science_pack.png",
-        "imgUrl": "https://wiki.factorio.com/images/Military_science_pack.png",
-        "text": "2"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "10"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Rocket_fuel",
-          "title": "Rocket fuel",
-          "imgRelativeUrl": "/images/Rocket_fuel.png",
-          "imgUrl": "https://wiki.factorio.com/images/Rocket_fuel.png",
-          "text": "1"
-        },
-        {
-          "id": "/Uranium-235",
-          "title": "Uranium-235",
-          "imgRelativeUrl": "/images/Uranium-235.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Nuclear_fuel",
-        "title": "Nuclear fuel",
-        "imgRelativeUrl": "/images/Nuclear_fuel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Nuclear_fuel.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "90"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Used_up_uranium_fuel_cell",
-          "title": "Used up uranium fuel cell",
-          "imgRelativeUrl": "/images/Used_up_uranium_fuel_cell.png",
-          "imgUrl": "https://wiki.factorio.com/images/Used_up_uranium_fuel_cell.png",
-          "text": "5"
-        }
-      ],
-      "output": {
-        "id": "/Uranium-238",
-        "title": "Uranium-238",
-        "imgRelativeUrl": "/images/Uranium-238.png",
-        "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
-        "text": "3"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "60"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Coal",
-          "title": "Coal",
-          "imgRelativeUrl": "/images/thumb/Coal.png/32px-Coal.png",
-          "imgUrl": "https://wiki.factorio.com/images/thumb/Coal.png/32px-Coal.png",
-          "text": "1"
-        },
-        {
-          "id": "/Petroleum_gas",
-          "title": "Petroleum gas",
-          "imgRelativeUrl": "/images/Petroleum_gas.png",
-          "imgUrl": "https://wiki.factorio.com/images/Petroleum_gas.png",
-          "text": "20"
-        }
-      ],
-      "output": {
-        "id": "/Plastic_bar",
-        "title": "Plastic bar",
-        "imgRelativeUrl": "/images/Plastic_bar.png",
-        "imgUrl": "https://wiki.factorio.com/images/Plastic_bar.png",
-        "text": "2"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "1"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Advanced_circuit",
-          "title": "Advanced circuit",
-          "imgRelativeUrl": "/images/Advanced_circuit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Advanced_circuit.png",
-          "text": "2"
-        },
-        {
-          "id": "/Electronic_circuit",
-          "title": "Electronic circuit",
-          "imgRelativeUrl": "/images/Electronic_circuit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Electronic_circuit.png",
-          "text": "20"
-        },
-        {
-          "id": "/Sulfuric_acid",
-          "title": "Sulfuric acid",
-          "imgRelativeUrl": "/images/Sulfuric_acid.png",
-          "imgUrl": "https://wiki.factorio.com/images/Sulfuric_acid.png",
-          "text": "5"
-        }
-      ],
-      "output": {
-        "id": "/Processing_unit",
-        "title": "Processing unit",
-        "imgRelativeUrl": "/images/Processing_unit.png",
-        "imgUrl": "https://wiki.factorio.com/images/Processing_unit.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "10"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Electric_furnace",
-          "title": "Electric furnace",
-          "imgRelativeUrl": "/images/Electric_furnace.png",
-          "imgUrl": "https://wiki.factorio.com/images/Electric_furnace.png",
-          "text": "1"
-        },
-        {
-          "id": "/Productivity_module",
-          "title": "Productivity module",
-          "imgRelativeUrl": "/images/Productivity_module.png",
-          "imgUrl": "https://wiki.factorio.com/images/Productivity_module.png",
-          "text": "1"
-        },
-        {
-          "id": "/Rail",
-          "title": "Rail",
-          "imgRelativeUrl": "/images/Straight_rail.png",
-          "imgUrl": "https://wiki.factorio.com/images/Straight_rail.png",
-          "text": "30"
-        }
-      ],
-      "output": {
-        "id": "/Production_science_pack",
-        "title": "Production science pack",
-        "imgRelativeUrl": "/images/Production_science_pack.png",
-        "imgUrl": "https://wiki.factorio.com/images/Production_science_pack.png",
-        "text": "3"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "21"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Processing_unit",
-          "title": "Processing unit",
-          "imgRelativeUrl": "/images/Processing_unit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Processing_unit.png",
-          "text": "1"
-        },
-        {
-          "id": "/Speed_module",
-          "title": "Speed module",
-          "imgRelativeUrl": "/images/Speed_module.png",
-          "imgUrl": "https://wiki.factorio.com/images/Speed_module.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Rocket_control_unit",
-        "title": "Rocket control unit",
-        "imgRelativeUrl": "/images/Rocket_control_unit.png",
-        "imgUrl": "https://wiki.factorio.com/images/Rocket_control_unit.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "30"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Light_oil",
-          "title": "Light oil",
-          "imgRelativeUrl": "/images/Light_oil.png",
-          "imgUrl": "https://wiki.factorio.com/images/Light_oil.png",
-          "text": "10"
-        },
-        {
-          "id": "/Solid_fuel",
-          "title": "Solid fuel",
-          "imgRelativeUrl": "/images/Solid_fuel.png",
-          "imgUrl": "https://wiki.factorio.com/images/Solid_fuel.png",
-          "text": "10"
-        }
-      ],
-      "output": {
-        "id": "/Rocket_fuel",
-        "title": "Rocket fuel",
-        "imgRelativeUrl": "/images/Rocket_fuel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Rocket_fuel.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "30"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Low_density_structure",
-          "title": "Low density structure",
-          "imgRelativeUrl": "/images/Low_density_structure.png",
-          "imgUrl": "https://wiki.factorio.com/images/Low_density_structure.png",
-          "text": "10"
-        },
-        {
-          "id": "/Rocket_control_unit",
-          "title": "Rocket control unit",
-          "imgRelativeUrl": "/images/Rocket_control_unit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Rocket_control_unit.png",
-          "text": "10"
-        },
-        {
-          "id": "/Rocket_fuel",
-          "title": "Rocket fuel",
-          "imgRelativeUrl": "/images/Rocket_fuel.png",
-          "imgUrl": "https://wiki.factorio.com/images/Rocket_fuel.png",
-          "text": "10"
-        }
-      ],
-      "output": {
-        "id": "/Rocket_part",
-        "title": "Rocket part",
-        "imgRelativeUrl": "/images/Rocket_part.png",
-        "imgUrl": "https://wiki.factorio.com/images/Rocket_part.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "3"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Accumulator",
-          "title": "Accumulator",
-          "imgRelativeUrl": "/images/Accumulator.png",
-          "imgUrl": "https://wiki.factorio.com/images/Accumulator.png",
-          "text": "100"
-        },
-        {
-          "id": "/Low_density_structure",
-          "title": "Low density structure",
-          "imgRelativeUrl": "/images/Low_density_structure.png",
-          "imgUrl": "https://wiki.factorio.com/images/Low_density_structure.png",
-          "text": "100"
-        },
-        {
-          "id": "/Processing_unit",
-          "title": "Processing unit",
-          "imgRelativeUrl": "/images/Processing_unit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Processing_unit.png",
-          "text": "100"
-        },
-        {
-          "id": "/Radar",
-          "title": "Radar",
-          "imgRelativeUrl": "/images/Radar.png",
-          "imgUrl": "https://wiki.factorio.com/images/Radar.png",
-          "text": "5"
-        },
-        {
-          "id": "/Rocket_fuel",
-          "title": "Rocket fuel",
-          "imgRelativeUrl": "/images/Rocket_fuel.png",
-          "imgUrl": "https://wiki.factorio.com/images/Rocket_fuel.png",
-          "text": "50"
-        },
-        {
-          "id": "/Solar_panel",
-          "title": "Solar panel",
-          "imgRelativeUrl": "/images/Solar_panel.png",
-          "imgUrl": "https://wiki.factorio.com/images/Solar_panel.png",
-          "text": "100"
-        }
-      ],
-      "output": {
-        "id": "/Satellite",
-        "title": "Satellite",
-        "imgRelativeUrl": "/images/Satellite.png",
-        "imgUrl": "https://wiki.factorio.com/images/Satellite.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "5"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Iron_plate",
-          "title": "Iron plate",
-          "imgRelativeUrl": "/images/Iron_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-          "text": "5"
-        }
-      ],
-      "output": {
-        "id": "/Steel_plate",
-        "title": "Steel plate",
-        "imgRelativeUrl": "/images/Steel_plate.png",
-        "imgUrl": "https://wiki.factorio.com/images/Steel_plate.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "16"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Petroleum_gas",
-          "title": "Petroleum gas",
-          "imgRelativeUrl": "/images/Petroleum_gas.png",
-          "imgUrl": "https://wiki.factorio.com/images/Petroleum_gas.png",
-          "text": "30"
-        },
-        {
-          "id": "/Water",
-          "title": "Water",
-          "imgRelativeUrl": "/images/Water.png",
-          "imgUrl": "https://wiki.factorio.com/images/Water.png",
-          "text": "30"
-        }
-      ],
-      "output": {
-        "id": "/Sulfur",
-        "title": "Sulfur",
-        "imgRelativeUrl": "/images/Sulfur.png",
-        "imgUrl": "https://wiki.factorio.com/images/Sulfur.png",
-        "text": "2"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "1"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Iron_plate",
-          "title": "Iron plate",
-          "imgRelativeUrl": "/images/Iron_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-          "text": "1"
-        },
-        {
-          "id": "/Sulfur",
-          "title": "Sulfur",
-          "imgRelativeUrl": "/images/Sulfur.png",
-          "imgUrl": "https://wiki.factorio.com/images/Sulfur.png",
-          "text": "5"
-        },
-        {
-          "id": "/Water",
-          "title": "Water",
-          "imgRelativeUrl": "/images/Water.png",
-          "imgUrl": "https://wiki.factorio.com/images/Water.png",
-          "text": "100"
-        }
-      ],
-      "output": {
-        "id": "/Sulfuric_acid",
-        "title": "Sulfuric acid",
-        "imgRelativeUrl": "/images/Sulfuric_acid.png",
-        "imgUrl": "https://wiki.factorio.com/images/Sulfuric_acid.png",
-        "text": "50"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "1"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Iron_plate",
-          "title": "Iron plate",
-          "imgRelativeUrl": "/images/Iron_plate.png",
-          "imgUrl": "https://wiki.factorio.com/images/Iron_plate.png",
-          "text": "10"
-        },
-        {
-          "id": "/Uranium-235",
-          "title": "Uranium-235",
-          "imgRelativeUrl": "/images/Uranium-235.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
-          "text": "1"
-        },
-        {
-          "id": "/Uranium-238",
-          "title": "Uranium-238",
-          "imgRelativeUrl": "/images/Uranium-238.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
-          "text": "19"
-        }
-      ],
-      "output": {
-        "id": "/Uranium_fuel_cell",
-        "title": "Uranium fuel cell",
-        "imgRelativeUrl": "/images/Uranium_fuel_cell.png",
-        "imgUrl": "https://wiki.factorio.com/images/Uranium_fuel_cell.png",
-        "text": "10"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "10"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Uranium_ore",
-          "title": "Uranium ore",
-          "imgRelativeUrl": "/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
-          "imgUrl": "https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
-          "text": "10"
-        },
-        {
-          "id": "/Uranium-235",
-          "title": "Uranium-235",
-          "imgRelativeUrl": "/images/Uranium-235.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
-          "text": "0.007"
-        }
-      ],
-      "output": {
-        "id": "/Uranium-238",
-        "title": "Uranium-238",
-        "imgRelativeUrl": "/images/Uranium-238.png",
-        "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
-        "text": "0.993"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "12"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Uranium_ore",
-          "title": "Uranium ore",
-          "imgRelativeUrl": "/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
-          "imgUrl": "https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
-          "text": "10"
-        },
-        {
-          "id": "/Uranium-235",
-          "title": "Uranium-235",
-          "imgRelativeUrl": "/images/Uranium-235.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
-          "text": "0.007"
-        }
-      ],
-      "output": {
-        "id": "/Uranium-238",
-        "title": "Uranium-238",
-        "imgRelativeUrl": "/images/Uranium-238.png",
-        "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
-        "text": "0.993"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "12"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Uranium_ore",
-          "title": "Uranium ore",
-          "imgRelativeUrl": "/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
-          "imgUrl": "https://wiki.factorio.com/images/thumb/Uranium_ore.png/32px-Uranium_ore.png",
-          "text": "10"
-        },
-        {
-          "id": "/Uranium-235",
-          "title": "Uranium-235",
-          "imgRelativeUrl": "/images/Uranium-235.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium-235.png",
-          "text": "0.007"
-        }
-      ],
-      "output": {
-        "id": "/Uranium-238",
-        "title": "Uranium-238",
-        "imgRelativeUrl": "/images/Uranium-238.png",
-        "imgUrl": "https://wiki.factorio.com/images/Uranium-238.png",
-        "text": "0.993"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "12"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Uranium_fuel_cell",
-          "title": "Uranium fuel cell",
-          "imgRelativeUrl": "/images/Uranium_fuel_cell.png",
-          "imgUrl": "https://wiki.factorio.com/images/Uranium_fuel_cell.png",
-          "text": "1"
-        }
-      ],
-      "output": {
-        "id": "/Used_up_uranium_fuel_cell",
-        "title": "Used up uranium fuel cell",
-        "imgRelativeUrl": "/images/Used_up_uranium_fuel_cell.png",
-        "imgUrl": "https://wiki.factorio.com/images/Used_up_uranium_fuel_cell.png",
-        "text": "1 "
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "200"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Flying_robot_frame",
-          "title": "Flying robot frame",
-          "imgRelativeUrl": "/images/Flying_robot_frame.png",
-          "imgUrl": "https://wiki.factorio.com/images/Flying_robot_frame.png",
-          "text": "1"
-        },
-        {
-          "id": "/Low_density_structure",
-          "title": "Low density structure",
-          "imgRelativeUrl": "/images/Low_density_structure.png",
-          "imgUrl": "https://wiki.factorio.com/images/Low_density_structure.png",
-          "text": "3"
-        },
-        {
-          "id": "/Processing_unit",
-          "title": "Processing unit",
-          "imgRelativeUrl": "/images/Processing_unit.png",
-          "imgUrl": "https://wiki.factorio.com/images/Processing_unit.png",
-          "text": "2"
-        }
-      ],
-      "output": {
-        "id": "/Utility_science_pack",
-        "title": "Utility science pack",
-        "imgRelativeUrl": "/images/Utility_science_pack.png",
-        "imgUrl": "https://wiki.factorio.com/images/Utility_science_pack.png",
-        "text": "3"
-      },
-      "time": {
-        "id": "/Time",
-        "title": "Time",
-        "imgRelativeUrl": "/images/Time_icon.png",
-        "imgUrl": "https://wiki.factorio.com/images/Time_icon.png",
-        "text": "21"
+      "tech": {
+        "imgRelativeUrl": "/images/Coal_liquefaction.png",
+        "imgUrl": "https://wiki.factorio.com/images/Coal_liquefaction.png",
+        "text": ""
       }
     }
   ]

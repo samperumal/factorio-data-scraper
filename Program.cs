@@ -13,6 +13,7 @@ namespace factorio
             {
                 var parser = new ParseWiki();
                 await parser.ParseRoot("https://wiki.factorio.com/Category:Intermediate_products");
+                await parser.ParseOil("https://wiki.factorio.com/Oil_processing");
 
                 File.WriteAllText("products.json", JsonConvert.SerializeObject(new {
                     products = parser.Products.Values,
