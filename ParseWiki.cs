@@ -152,7 +152,7 @@ namespace factorio
             var recipe = new
             {
                 inputs = list.Where(e => e != output && e != time).Select(RecipePart),
-                outputs = new [] { RecipePart(output) },
+                outputs = new[] { RecipePart(output) },
                 time = time?.image?.text
             };
 
@@ -169,11 +169,51 @@ namespace factorio
             }
             else if (url == "https://wiki.factorio.com/Solid_fuel")
             {
-                // await ParseSolidFuel(url);
+                await ParseSolidFuel(url);
             }
             else
             {
                 // Console.WriteLine(uri);
+            }
+        }
+
+        async internal Task ParseSolidFuel(string rootUrl)
+        {
+            var uri = new Uri(rootUrl);
+            var document = await LoadFromCache(rootUrl);
+
+            var table = document.QuerySelector("table.wikitable");
+
+            foreach (var row in table.QuerySelectorAll("tr").Skip(1))
+            {
+                var columns = row.QuerySelectorAll("td").ToList();
+
+                var inputs = columns[1]
+                    .QuerySelectorAll("div.factorio-icon")
+                    .Select(async div => await ParseFactorioIcon(div, uri))
+                    .Select(t => t.Result)
+                    .ToList();
+
+                foreach (var resource in inputs)
+                    AddProduct(resource);
+
+                var outputs = columns[2].QuerySelectorAll("div.factorio-icon")
+                    .Select(async div => await ParseFactorioIcon(div, uri))
+                    .Select(t => t.Result)
+                    .ToList();
+
+                foreach (var resource in outputs)
+                    AddProduct(resource);
+
+                var recipe = new
+                {
+                    inputs = inputs.Take(inputs.Count() - 1).Where(e => e != null).Select(RecipePart),
+                    outputs = outputs.Where(e => e != null).Select(RecipePart),
+                    time = inputs.Last()?.image?.text,
+                    process = await ParseFactorioIcon(columns[0], uri),
+                };
+
+                Recipes.Add(recipe);
             }
         }
 
@@ -198,20 +238,22 @@ namespace factorio
             var techElement = barrelRecipeTable.QuerySelectorAll("tr").Skip(1).First();
             var tech = await ParseFactorioIconImage(techElement, uri, techElement.QuerySelector("a").TextContent);
 
-            var barrelRecipe = new {
-                inputs = new [] { RecipePart(input) },
-                outputs = new [] { RecipePart(output) },
+            var barrelRecipe = new
+            {
+                inputs = new[] { RecipePart(input) },
+                outputs = new[] { RecipePart(output) },
                 time = time?.image?.text,
                 tech
             };
 
             Recipes.Add(barrelRecipe);
 
-            foreach (var table in document.QuerySelectorAll("table.wikitable").Skip(1)) {
+            foreach (var table in document.QuerySelectorAll("table.wikitable").Skip(1))
+            {
                 foreach (var row in table?.QuerySelectorAll("tr").Skip(1))
                 {
                     var columns = row.QuerySelectorAll("td").ToList();
-                    
+
                     var inputs = columns[1]
                         .QuerySelectorAll("div.factorio-icon")
                         .Select(async div => await ParseFactorioIcon(div, uri))
@@ -249,11 +291,6 @@ namespace factorio
             }
         }
 
-        internal Task ParseSolidFuel(string v)
-        {
-            return null;
-        }
-
         async internal Task ParseOil(string rootUrl)
         {
             var uri = new Uri(rootUrl);
@@ -264,7 +301,7 @@ namespace factorio
             foreach (var row in table?.QuerySelectorAll("tr").Skip(1))
             {
                 var columns = row.QuerySelectorAll("td").ToList();
-                
+
                 var inputs = columns[1]
                     .QuerySelectorAll("div.factorio-icon")
                     .Select(async div => await ParseFactorioIcon(div, uri))
@@ -296,7 +333,8 @@ namespace factorio
             }
         }
 
-        dynamic RecipePart(dynamic e) {
+        dynamic RecipePart(dynamic e)
+        {
             return new { e.id, time = e?.image?.text };
         }
 
@@ -322,14 +360,15 @@ namespace factorio
                     image
                 };
             }
-            else {
+            else
+            {
                 var image = await ParseFactorioIconImage(element, uri);
 
                 if (image != null)
                     return new
                     {
                         id = image.imgRelativeUrl.Replace("/images", "").Replace(".png", ""),
-                        title  = image.imgRelativeUrl.Replace("/images/", "").Replace(".png", ""),
+                        title = image.imgRelativeUrl.Replace("/images/", "").Replace(".png", ""),
                         image
                     };
                 else return null;

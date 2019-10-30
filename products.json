@@ -1950,6 +1950,78 @@
     {
       "inputs": [
         {
+          "id": "/Heavy_oil",
+          "time": "20"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Solid_fuel",
+          "time": "1"
+        }
+      ],
+      "time": "2",
+      "process": {
+        "id": "/Solid_fuel_from_heavy_oil",
+        "title": "Solid_fuel_from_heavy_oil",
+        "image": {
+          "imgRelativeUrl": "/images/Solid_fuel_from_heavy_oil.png",
+          "imgUrl": "https://wiki.factorio.com/images/Solid_fuel_from_heavy_oil.png",
+          "text": ""
+        }
+      }
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Light_oil",
+          "time": "10"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Solid_fuel",
+          "time": "1"
+        }
+      ],
+      "time": "2",
+      "process": {
+        "id": "/Solid_fuel_from_light_oil",
+        "title": "Solid_fuel_from_light_oil",
+        "image": {
+          "imgRelativeUrl": "/images/Solid_fuel_from_light_oil.png",
+          "imgUrl": "https://wiki.factorio.com/images/Solid_fuel_from_light_oil.png",
+          "text": ""
+        }
+      }
+    },
+    {
+      "inputs": [
+        {
+          "id": "/Petroleum_gas",
+          "time": "20"
+        }
+      ],
+      "outputs": [
+        {
+          "id": "/Solid_fuel",
+          "time": "1"
+        }
+      ],
+      "time": "2",
+      "process": {
+        "id": "/Solid_fuel_from_petroleum_gas",
+        "title": "Solid_fuel_from_petroleum_gas",
+        "image": {
+          "imgRelativeUrl": "/images/Solid_fuel_from_petroleum_gas.png",
+          "imgUrl": "https://wiki.factorio.com/images/Solid_fuel_from_petroleum_gas.png",
+          "text": ""
+        }
+      }
+    },
+    {
+      "inputs": [
+        {
           "id": "/Iron_plate",
           "time": "5"
         }
@@ -2306,712 +2378,6 @@
         "imgRelativeUrl": "/images/Coal_liquefaction.png",
         "imgUrl": "https://wiki.factorio.com/images/Coal_liquefaction.png",
         "text": ""
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Steel_plate",
-          "time": "1"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        }
-      ],
-      "time": "1",
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Crude_oil_barrel",
-          "time": "1"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Crude_oil",
-          "time": "50"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Empty_crude_oil_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Empty_crude_oil_barrel.png",
-        "text": "Empty crude oil barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Heavy_oil_barrel",
-          "time": "1"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Heavy_oil",
-          "time": "50"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Empty_heavy_oil_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Empty_heavy_oil_barrel.png",
-        "text": "Empty heavy oil barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Light_oil_barrel",
-          "time": "1"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Light_oil",
-          "time": "50"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Empty_light_oil_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Empty_light_oil_barrel.png",
-        "text": "Empty light oil barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Lubricant_barrel",
-          "time": "1"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Lubricant",
-          "time": "50"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Empty_lubricant_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Empty_lubricant_barrel.png",
-        "text": "Empty lubricant barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Petroleum_gas_barrel",
-          "time": "1"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Petroleum_gas",
-          "time": "50"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Empty_petroleum_gas_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Empty_petroleum_gas_barrel.png",
-        "text": "Empty petroleum gas barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Sulfuric_acid_barrel",
-          "time": "1"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Sulfuric_acid",
-          "time": "50"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Empty_sulfuric_acid_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Empty_sulfuric_acid_barrel.png",
-        "text": "Empty sulfuric acid barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Water_barrel",
-          "time": "1"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Water",
-          "time": "50"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Empty_water_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Empty_water_barrel.png",
-        "text": "Empty water barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Crude_oil",
-          "time": "50"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Crude_oil_barrel",
-          "time": "1"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Fill_crude_oil_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Fill_crude_oil_barrel.png",
-        "text": "Fill crude oil barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Heavy_oil",
-          "time": "50"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Heavy_oil_barrel",
-          "time": "1"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Fill_heavy_oil_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Fill_heavy_oil_barrel.png",
-        "text": "Fill heavy oil barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Light_oil",
-          "time": "50"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Light_oil_barrel",
-          "time": "1"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Fill_light_oil_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Fill_light_oil_barrel.png",
-        "text": "Fill light oil barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Lubricant",
-          "time": "50"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Lubricant_barrel",
-          "time": "1"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Fill_lubricant_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Fill_lubricant_barrel.png",
-        "text": "Fill lubricant barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Petroleum_gas",
-          "time": "50"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Petroleum_gas_barrel",
-          "time": "1"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Fill_petroleum_gas_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Fill_petroleum_gas_barrel.png",
-        "text": "Fill petroleum gas barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Sulfuric_acid",
-          "time": "50"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Sulfuric_acid_barrel",
-          "time": "1"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Fill_sulfuric_acid_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Fill_sulfuric_acid_barrel.png",
-        "text": "Fill sulfuric acid barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
-      }
-    },
-    {
-      "inputs": [
-        {
-          "id": "/Empty_barrel",
-          "time": "1"
-        },
-        {
-          "id": "/Water",
-          "time": "50"
-        }
-      ],
-      "outputs": [
-        {
-          "id": "/Water_barrel",
-          "time": "1"
-        }
-      ],
-      "time": "0.2",
-      "process": {
-        "imgRelativeUrl": "/images/Fill_water_barrel.png",
-        "imgUrl": "https://wiki.factorio.com/images/Fill_water_barrel.png",
-        "text": "Fill water barrel"
-      },
-      "machines": [
-        {
-          "id": "/Assembling_machine_2",
-          "title": "Assembling machine 2",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_2.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_2.png",
-            "text": ""
-          }
-        },
-        {
-          "id": "/Assembling_machine_3",
-          "title": "Assembling machine 3",
-          "image": {
-            "imgRelativeUrl": "/images/Assembling_machine_3.png",
-            "imgUrl": "https://wiki.factorio.com/images/Assembling_machine_3.png",
-            "text": ""
-          }
-        }
-      ],
-      "tech": {
-        "imgRelativeUrl": "/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "imgUrl": "https://wiki.factorio.com/images/thumb/Fluid_handling_%28research%29.png/32px-Fluid_handling_%28research%29.png",
-        "text": "Fluid handling"
       }
     }
   ]
