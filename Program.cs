@@ -14,6 +14,7 @@ namespace factorio
                 var parser = new ParseWiki();
                 await parser.ParseRoot("https://wiki.factorio.com/Category:Intermediate_products");
                 await parser.ParseOil("https://wiki.factorio.com/Oil_processing");
+                await parser.ParseBarrel("https://wiki.factorio.com/Barrel");
 
                 File.WriteAllText("products.json", JsonConvert.SerializeObject(new {
                     products = parser.Products.Values,
@@ -24,6 +25,7 @@ namespace factorio
             catch (Exception ex)
             {
                 Console.Error.WriteLine(ex);
+                throw;
             }
 
             Console.WriteLine("Done!");

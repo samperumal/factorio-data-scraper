@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using AngleSharp;
 using AngleSharp.Dom;
+using Newtonsoft.Json;
 
 namespace factorio
 {
@@ -164,11 +165,11 @@ namespace factorio
 
             if (url == "https://wiki.factorio.com/Barrel")
             {
-                //ParseBarrel(url);
+                await ParseBarrel(url);
             }
             else if (url == "https://wiki.factorio.com/Solid_fuel")
             {
-                //ParseSolidFuel(url);
+                // await ParseSolidFuel(url);
             }
             else
             {
@@ -176,9 +177,76 @@ namespace factorio
             }
         }
 
-        internal Task ParseBarrel(string v)
+        async internal Task ParseBarrel(string rootUrl)
         {
-            return null;
+            var uri = new Uri(rootUrl);
+            var document = await LoadFromCache(rootUrl);
+
+            var barrelRecipeTable = document.QuerySelector("table.wikitable");
+
+            var items = barrelRecipeTable.QuerySelector("tr")
+                    .QuerySelectorAll("div.factorio-icon")
+                    .Select(async div => await ParseFactorioIcon(div, uri))
+                    .Select(t => t.Result)
+                    .ToList();
+
+            foreach (var resource in items.Take(3)) AddProduct(resource);
+
+            var input = items[0];
+            var time = items[1];
+            var output = items[2];
+            var techElement = barrelRecipeTable.QuerySelectorAll("tr").Skip(1).First();
+            var tech = await ParseFactorioIconImage(techElement, uri, techElement.QuerySelector("a").TextContent);
+
+            var barrelRecipe = new {
+                inputs = new [] { RecipePart(input) },
+                outputs = new [] { RecipePart(output) },
+                time = time?.image?.text,
+                tech
+            };
+
+            Recipes.Add(barrelRecipe);
+
+            foreach (var table in document.QuerySelectorAll("table.wikitable").Skip(1)) {
+                foreach (var row in table?.QuerySelectorAll("tr").Skip(1))
+                {
+                    var columns = row.QuerySelectorAll("td").ToList();
+                    
+                    var inputs = columns[1]
+                        .QuerySelectorAll("div.factorio-icon")
+                        .Select(async div => await ParseFactorioIcon(div, uri))
+                        .Select(t => t.Result)
+                        .ToList();
+
+                    foreach (var resource in inputs)
+                        AddProduct(resource);
+
+                    var machines = columns[2].QuerySelectorAll("div.factorio-icon")
+                        .Select(async div => await ParseFactorioIcon(div, uri))
+                        .Select(t => t.Result)
+                        .ToList();
+
+                    var outputs = columns[3].QuerySelectorAll("div.factorio-icon")
+                        .Select(async div => await ParseFactorioIcon(div, uri))
+                        .Select(t => t.Result)
+                        .ToList();
+
+                    foreach (var resource in outputs)
+                        AddProduct(resource);
+
+                    var recipe = new
+                    {
+                        inputs = inputs.Take(inputs.Count() - 1).Where(e => e != null).Select(RecipePart),
+                        outputs = outputs.Where(e => e != null).Select(RecipePart),
+                        time = inputs.Last()?.image?.text,
+                        process = await ParseFactorioIconImage(columns[0], uri, columns[0].TextContent),
+                        machines,
+                        tech
+                    };
+
+                    Recipes.Add(recipe);
+                }
+            }
         }
 
         internal Task ParseSolidFuel(string v)
@@ -196,9 +264,7 @@ namespace factorio
             foreach (var row in table?.QuerySelectorAll("tr").Skip(1))
             {
                 var columns = row.QuerySelectorAll("td").ToList();
-                var process = await ParseFactorioIconImage(columns[0], uri);
-                var processText = columns[0].TextContent;
-
+                
                 var inputs = columns[1]
                     .QuerySelectorAll("div.factorio-icon")
                     .Select(async div => await ParseFactorioIcon(div, uri))
@@ -221,12 +287,8 @@ namespace factorio
                     inputs = inputs.Skip(1).Select(RecipePart),
                     outputs = outputs.Select(RecipePart),
                     time = inputs.First()?.image?.text,
-                    process = new {
-                        process.imgRelativeUrl,
-                        process.imgUrl,
-                        text = processText
-                    },
-                    machine = await ParseFactorioIconImage(columns[3], uri),
+                    process = await ParseFactorioIconImage(columns[0], uri, columns[0].TextContent),
+                    machines = await ParseFactorioIconImage(columns[3], uri),
                     tech = await ParseFactorioIconImage(columns[4], uri)
                 };
 
@@ -260,10 +322,21 @@ namespace factorio
                     image
                 };
             }
-            else return null;
+            else {
+                var image = await ParseFactorioIconImage(element, uri);
+
+                if (image != null)
+                    return new
+                    {
+                        id = image.imgRelativeUrl.Replace("/images", "").Replace(".png", ""),
+                        title  = image.imgRelativeUrl.Replace("/images/", "").Replace(".png", ""),
+                        image
+                    };
+                else return null;
+            }
         }
 
-        async Task<dynamic> ParseFactorioIconImage(IElement element, Uri uri)
+        async Task<dynamic> ParseFactorioIconImage(IElement element, Uri uri, string defaultText = null)
         {
             var imgRelativeUrl = element.QuerySelector("img")?.GetAttribute("src");
             var imgUrl = imgRelativeUrl != null ? new Uri(uri, imgRelativeUrl) : null;
@@ -276,7 +349,7 @@ namespace factorio
             {
                 imgRelativeUrl,
                 imgUrl,
-                text
+                text = (defaultText ?? text).Trim()
             };
         }
 
